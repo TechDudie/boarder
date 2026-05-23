@@ -385,7 +385,7 @@ export default function App() {
 
       <details className="panel" open>
         <summary className="panel-summary">
-          <span className="panel-summary-title">HCTG Map ({zoneCount}) - Yellow 3 Will Win!</span>
+          <span className="panel-summary-title">HCTG Map ({zoneCount})</span>
           <span className="panel-summary-meta">
             {selectedZones.length} selected / {activeLayerCount} transit on
           </span>
