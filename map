@@ -8,7 +8,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#ffffff">
     <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="GtcbPFZXL6zkXt54ukcj_FDM857VUABJ7eYR-EZPuceKYjM28094E7I08z74DOdBjDBw5tmwstCjNwPO89kU2Q" />
+<meta name="csrf-token" content="HM8U0SId1p_UVUdkcYpnbm_kQVYok9MW2EicBcVJJMO9IZCNW45FFhBZlfwlloZtbb_2swH_5A0l_En-z5jNdw" />
     
 
     
@@ -16,17 +16,17 @@
     <link rel="icon" href="/icon.png" type="image/png">
     <link rel="apple-touch-icon" href="/icon.png">
 
-    <link rel="stylesheet" href="/assets/application-d9a4f03b.css" />
+    <link rel="stylesheet" href="/assets/application-d14c4baa.css" />
     <script type="importmap" data-turbo-track="reload">{
   "imports": {
-    "application": "/assets/application-9ec26115.js",
+    "application": "/assets/application-4629bfb6.js",
     "underscore": "https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-min.js",
     "markerclustererplus": "https://cdn.jsdelivr.net/npm/markerclustererplus@2.1.4/dist/markerclusterer.min.js",
     "trix": "/assets/trix-4bf79781.js",
     "@rails/actiontext": "/assets/actiontext.esm-c376325e.js"
   }
 }</script>
-<link rel="modulepreload" href="/assets/application-9ec26115.js">
+<link rel="modulepreload" href="/assets/application-4629bfb6.js">
 <link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-min.js">
 <link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/markerclustererplus@2.1.4/dist/markerclusterer.min.js">
 <link rel="modulepreload" href="/assets/trix-4bf79781.js">
@@ -62,22 +62,26 @@
             <div class="bg-[#fbbf24] rounded-2xl border-[3px] border-black p-3 text-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]">
               <div class="flex items-center gap-3">
                 <div class="w-10 h-10 rounded-full bg-black overflow-hidden flex items-center justify-center text-white font-black flex-shrink-0">
-                    <img alt="" class="w-full h-full object-cover" src="https://avatars.slack-edge.com/2026-01-26/10382005272884_248eb590b690830f8423_192.png" />
+                    <img alt="" class="w-full h-full object-cover" onerror="this.style.display=&#39;none&#39;;this.nextElementSibling.style.display=&#39;&#39;" src="https://avatars.slack-edge.com/2026-01-26/10382005272884_248eb590b690830f8423_192.png" />
+                    <span style="display:none">T</span>
                 </div>
                 <div class="flex-1 min-w-0">
                   <p class="font-black text-sm truncate">technodot</p>
-                    <p class="text-xs text-black/70 font-medium">No team</p>
+                    <p class="text-xs text-black/70 font-medium truncate">
+                      Yellow · #3 · 0pts
+                    </p>
                 </div>
                 <form class="inline" method="post" action="/logout"><input type="hidden" name="_method" value="delete" /><button class="p-1.5 rounded-lg hover:bg-black/10 transition-colors" data-turbo="false" type="submit">
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/>
                   </svg>
-</button><input type="hidden" name="authenticity_token" value="1pp0VRdojowCxjXBV3Q0nNDrnyD8T8Ol_VjdRV5QcYfho2z9uNPPJtEW2LESAFMbDepNFYF3iLh3gV8AdEGfXg" /></form>              </div>
+</button><input type="hidden" name="authenticity_token" value="NtwCpLYqi1QaliM_EsoSQaCsSCraFynUsTskOLSMy3ov2gvXDepnlUcxmFFAIQ7hAZwvb0tpH-Diuns_Nj_KxA" /></form>              </div>
             </div>
           </div>
       </aside>
 
         <main class="fixed inset-0 lg:left-72 overflow-hidden">
+          
           
 <script>
   document.querySelectorAll('[data-flash]').forEach(function(el) {
@@ -88,6 +92,7 @@
   });
 </script>
 
+          
           
 <div class="absolute inset-0">
   <div id="map" class="map-canvas"></div>
@@ -128,7 +133,7 @@
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
           </span>
           <span id="sheet-title" class="font-black text-base tracking-tight truncate">Zones</span>
-          <span class="pill-yellow border-[2px] border-black text-[10px]">108</span>
+          <span class="pill-yellow border-[2px] border-black text-[10px]">111</span>
         </div>
         <button type="button" id="sheet-toggle-btn"
                 onclick="event.stopPropagation(); toggleSheet();"
@@ -142,868 +147,892 @@
 
       <div id="zone-list-wrap" class="border-t-[2px] border-black/10 overflow-hidden flex-1 flex flex-col min-h-0">
         <ul id="zone-list" class="divide-y divide-gray-100 overflow-y-auto flex-1">
-            <li data-zone-id="56" class="zone-row">
+            <li data-zone-id="1" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">City Hall</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 1</span>
               </button>
             </li>
-            <li data-zone-id="99" class="zone-row">
+            <li data-zone-id="2" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Clinton Hall</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 2</span>
               </button>
             </li>
-            <li data-zone-id="38" class="zone-row">
+            <li data-zone-id="3" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Diner that serves coke</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 3</span>
               </button>
             </li>
-            <li data-zone-id="37" class="zone-row">
+            <li data-zone-id="4" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Diner that serves coke</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 4</span>
               </button>
             </li>
-            <li data-zone-id="48" class="zone-row">
+            <li data-zone-id="5" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Flatiron</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 5</span>
               </button>
             </li>
-            <li data-zone-id="28" class="zone-row">
+            <li data-zone-id="6" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Friends</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 6</span>
               </button>
             </li>
-            <li data-zone-id="100" class="zone-row">
+            <li data-zone-id="8" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Gatekeeper</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 7</span>
               </button>
             </li>
-            <li data-zone-id="81" class="zone-row">
+            <li data-zone-id="9" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Hess Triangle</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 8</span>
               </button>
             </li>
-            <li data-zone-id="35" class="zone-row">
+            <li data-zone-id="10" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">I love NY Mural</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 9</span>
               </button>
             </li>
-            <li data-zone-id="86" class="zone-row">
+            <li data-zone-id="11" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Imagine</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 10</span>
               </button>
             </li>
-            <li data-zone-id="59" class="zone-row">
+            <li data-zone-id="12" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Intrepid Museum</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 11</span>
               </button>
             </li>
-            <li data-zone-id="45" class="zone-row">
+            <li data-zone-id="13" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Make Magic</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 12</span>
               </button>
             </li>
-            <li data-zone-id="49" class="zone-row">
+            <li data-zone-id="14" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Mini Museums (fix)</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 13</span>
               </button>
             </li>
-            <li data-zone-id="44" class="zone-row">
+            <li data-zone-id="15" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Fraction</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 14</span>
               </button>
             </li>
-            <li data-zone-id="85" class="zone-row">
+            <li data-zone-id="16" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Cleoperta needle and the castle</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 15</span>
               </button>
             </li>
-            <li data-zone-id="73" class="zone-row">
+            <li data-zone-id="17" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">High Line</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 16</span>
               </button>
             </li>
-            <li data-zone-id="27" class="zone-row">
+            <li data-zone-id="18" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Bike</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 17</span>
               </button>
             </li>
-            <li data-zone-id="68" class="zone-row">
+            <li data-zone-id="19" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Lego Master Builder</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 18</span>
               </button>
             </li>
-            <li data-zone-id="89" class="zone-row">
+            <li data-zone-id="20" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Macy</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 19</span>
               </button>
             </li>
-            <li data-zone-id="43" class="zone-row">
+            <li data-zone-id="21" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Lexiginton Ave &amp; 53rd Street</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 20</span>
               </button>
             </li>
-            <li data-zone-id="62" class="zone-row">
+            <li data-zone-id="22" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Earth room</span>
-              </button>
-            </li>
-            <li data-zone-id="77" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">El Sabroso</span>
-              </button>
-            </li>
-            <li data-zone-id="98" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Oldest Broadway</span>
-              </button>
-            </li>
-            <li data-zone-id="96" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Tree</span>
-              </button>
-            </li>
-            <li data-zone-id="50" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">United Nations</span>
-              </button>
-            </li>
-            <li data-zone-id="102" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 104</span>
-              </button>
-            </li>
-            <li data-zone-id="103" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 105</span>
-              </button>
-            </li>
-            <li data-zone-id="104" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 106</span>
-              </button>
-            </li>
-            <li data-zone-id="105" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 107</span>
-              </button>
-            </li>
-            <li data-zone-id="109" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 108</span>
-              </button>
-            </li>
-            <li data-zone-id="107" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 109</span>
-              </button>
-            </li>
-            <li data-zone-id="112" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 112</span>
-              </button>
-            </li>
-            <li data-zone-id="113" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 113</span>
-              </button>
-            </li>
-            <li data-zone-id="114" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 114</span>
-              </button>
-            </li>
-            <li data-zone-id="115" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 117</span>
-              </button>
-            </li>
-            <li data-zone-id="51" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Smallest building</span>
-              </button>
-            </li>
-            <li data-zone-id="101" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 101</span>
-              </button>
-            </li>
-            <li data-zone-id="108" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">North Boundary</span>
-              </button>
-            </li>
-            <li data-zone-id="106" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 108</span>
-              </button>
-            </li>
-            <li data-zone-id="24" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Tropical Forest</span>
-              </button>
-            </li>
-            <li data-zone-id="90" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Private Passage</span>
-              </button>
-            </li>
-            <li data-zone-id="110" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 109</span>
-              </button>
-            </li>
-            <li data-zone-id="67" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Stephen A. Schwarzman Building</span>
-              </button>
-            </li>
-            <li data-zone-id="111" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 113</span>
-              </button>
-            </li>
-            <li data-zone-id="79" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">PDT</span>
-              </button>
-            </li>
-            <li data-zone-id="29" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Times Square</span>
-              </button>
-            </li>
-            <li data-zone-id="116" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 118</span>
-              </button>
-            </li>
-            <li data-zone-id="118" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 122</span>
-              </button>
-            </li>
-            <li data-zone-id="120" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 125</span>
-              </button>
-            </li>
-            <li data-zone-id="31" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 33</span>
-              </button>
-            </li>
-            <li data-zone-id="Grand Central" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 34</span>
-              </button>
-            </li>
-            <li data-zone-id="33" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 36</span>
-              </button>
-            </li>
-            <li data-zone-id="36" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 39</span>
-              </button>
-            </li>
-            <li data-zone-id="41" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 44</span>
-              </button>
-            </li>
-            <li data-zone-id="55" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 54</span>
-              </button>
-            </li>
-            <li data-zone-id="64" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 69</span>
-              </button>
-            </li>
-            <li data-zone-id="69" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 69</span>
-              </button>
-            </li>
-            <li data-zone-id="65" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 70</span>
-              </button>
-            </li>
-            <li data-zone-id="70" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 71</span>
-              </button>
-            </li>
-            <li data-zone-id="66" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 71</span>
-              </button>
-            </li>
-            <li data-zone-id="83" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Central Park 3</span>
-              </button>
-            </li>
-            <li data-zone-id="82" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Central Park 1</span>
-              </button>
-            </li>
-            <li data-zone-id="78" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 78</span>
-              </button>
-            </li>
-            <li data-zone-id="119" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Pier 96</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 21</span>
               </button>
             </li>
             <li data-zone-id="23" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 22</span>
+              </button>
+            </li>
+            <li data-zone-id="24" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
                 <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 23</span>
               </button>
             </li>
-            <li data-zone-id="117" class="zone-row">
+            <li data-zone-id="25" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 121</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 24</span>
               </button>
             </li>
-            <li data-zone-id="121" class="zone-row">
+            <li data-zone-id="26" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 126</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 25</span>
               </button>
             </li>
-            <li data-zone-id="72" class="zone-row">
+            <li data-zone-id="27" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 73</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 26</span>
               </button>
             </li>
-            <li data-zone-id="87" class="zone-row">
+            <li data-zone-id="28" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 88</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 27</span>
               </button>
             </li>
-            <li data-zone-id="88" class="zone-row">
+            <li data-zone-id="29" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 89</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 28</span>
               </button>
             </li>
-            <li data-zone-id="92" class="zone-row">
+            <li data-zone-id="30" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 92</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 29</span>
               </button>
             </li>
-            <li data-zone-id="93" class="zone-row">
+            <li data-zone-id="31" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 93</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 30</span>
               </button>
             </li>
-            <li data-zone-id="94" class="zone-row">
+            <li data-zone-id="32" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 95</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 31</span>
               </button>
             </li>
-            <li data-zone-id="95" class="zone-row">
+            <li data-zone-id="33" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 96</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 32</span>
               </button>
             </li>
-            <li data-zone-id="61" class="zone-row">
+            <li data-zone-id="34" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Moynihan Train Hall.</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 33</span>
               </button>
             </li>
-            <li data-zone-id="83" class="zone-row">
+            <li data-zone-id="36" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Chinatown dumplings?!</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 34</span>
               </button>
             </li>
-            <li data-zone-id="84" class="zone-row">
+            <li data-zone-id="37" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Central Park 4</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 35</span>
               </button>
             </li>
-            <li data-zone-id="91" class="zone-row">
+            <li data-zone-id="38" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Central Park 2</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 36</span>
               </button>
             </li>
-            <li data-zone-id="87" class="zone-row">
+            <li data-zone-id="39" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 91</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 37</span>
               </button>
             </li>
-            <li data-zone-id="80" class="zone-row">
+            <li data-zone-id="40" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Pier</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 38</span>
               </button>
             </li>
-            <li data-zone-id="84" class="zone-row">
+            <li data-zone-id="41" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Here be fire</span>
-              </button>
-            </li>
-            <li data-zone-id="85" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 87</span>
-              </button>
-            </li>
-            <li data-zone-id="88" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 92</span>
-              </button>
-            </li>
-            <li data-zone-id="90" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 96</span>
-              </button>
-            </li>
-            <li data-zone-id="93" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 102</span>
-              </button>
-            </li>
-            <li data-zone-id="89" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 94</span>
-              </button>
-            </li>
-            <li data-zone-id="76" class="zone-row">
-              <button type="button"
-                      onclick=""
-                      class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">De Harak Clock</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 39</span>
               </button>
             </li>
             <li data-zone-id="42" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">I Love NY</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 40</span>
               </button>
             </li>
-            <li data-zone-id="91" class="zone-row">
+            <li data-zone-id="43" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 99</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 41</span>
               </button>
             </li>
-            <li data-zone-id="100" class="zone-row">
+            <li data-zone-id="44" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 100</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 42</span>
               </button>
             </li>
-            <li data-zone-id="101" class="zone-row">
+            <li data-zone-id="45" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 103</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 43</span>
               </button>
             </li>
-            <li data-zone-id="102" class="zone-row">
+            <li data-zone-id="46" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 104</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 44</span>
               </button>
             </li>
-            <li data-zone-id="97" class="zone-row">
+            <li data-zone-id="47" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 107</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 45</span>
               </button>
             </li>
-            <li data-zone-id="95" class="zone-row">
+            <li data-zone-id="48" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 104</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 46</span>
               </button>
             </li>
-            <li data-zone-id="96" class="zone-row">
+            <li data-zone-id="49" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 105</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 47</span>
               </button>
             </li>
-            <li data-zone-id="94" class="zone-row">
+            <li data-zone-id="50" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 103</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 48</span>
               </button>
             </li>
-            <li data-zone-id="98" class="zone-row">
+            <li data-zone-id="51" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 108</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 49</span>
               </button>
             </li>
-            <li data-zone-id="103" class="zone-row">
+            <li data-zone-id="52" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 106</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 50</span>
               </button>
             </li>
-            <li data-zone-id="104" class="zone-row">
+            <li data-zone-id="53" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 107</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 51</span>
               </button>
             </li>
-            <li data-zone-id="99" class="zone-row">
+            <li data-zone-id="54" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 110</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 52</span>
               </button>
             </li>
-            <li data-zone-id="106" class="zone-row">
+            <li data-zone-id="55" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 109</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 53</span>
+              </button>
+            </li>
+            <li data-zone-id="56" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 54</span>
+              </button>
+            </li>
+            <li data-zone-id="57" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 55</span>
+              </button>
+            </li>
+            <li data-zone-id="58" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 56</span>
+              </button>
+            </li>
+            <li data-zone-id="59" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 57</span>
+              </button>
+            </li>
+            <li data-zone-id="60" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 58</span>
+              </button>
+            </li>
+            <li data-zone-id="61" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 59</span>
+              </button>
+            </li>
+            <li data-zone-id="62" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 60</span>
+              </button>
+            </li>
+            <li data-zone-id="63" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 61</span>
+              </button>
+            </li>
+            <li data-zone-id="64" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 62</span>
+              </button>
+            </li>
+            <li data-zone-id="65" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 63</span>
+              </button>
+            </li>
+            <li data-zone-id="66" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 64</span>
+              </button>
+            </li>
+            <li data-zone-id="67" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 65</span>
+              </button>
+            </li>
+            <li data-zone-id="68" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 66</span>
+              </button>
+            </li>
+            <li data-zone-id="70" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 67</span>
+              </button>
+            </li>
+            <li data-zone-id="71" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 68</span>
+              </button>
+            </li>
+            <li data-zone-id="72" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 69</span>
+              </button>
+            </li>
+            <li data-zone-id="73" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 70</span>
+              </button>
+            </li>
+            <li data-zone-id="74" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 71</span>
+              </button>
+            </li>
+            <li data-zone-id="75" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 72</span>
+              </button>
+            </li>
+            <li data-zone-id="76" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 73</span>
+              </button>
+            </li>
+            <li data-zone-id="77" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 74</span>
+              </button>
+            </li>
+            <li data-zone-id="78" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 75</span>
+              </button>
+            </li>
+            <li data-zone-id="79" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 76</span>
+              </button>
+            </li>
+            <li data-zone-id="80" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 77</span>
+              </button>
+            </li>
+            <li data-zone-id="81" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 78</span>
+              </button>
+            </li>
+            <li data-zone-id="82" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 79</span>
+              </button>
+            </li>
+            <li data-zone-id="83" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 80</span>
+              </button>
+            </li>
+            <li data-zone-id="84" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 81</span>
+              </button>
+            </li>
+            <li data-zone-id="85" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 82</span>
               </button>
             </li>
             <li data-zone-id="86" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 83</span>
+              </button>
+            </li>
+            <li data-zone-id="87" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 84</span>
+              </button>
+            </li>
+            <li data-zone-id="88" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 85</span>
+              </button>
+            </li>
+            <li data-zone-id="89" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 86</span>
+              </button>
+            </li>
+            <li data-zone-id="90" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 87</span>
+              </button>
+            </li>
+            <li data-zone-id="91" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 88</span>
+              </button>
+            </li>
+            <li data-zone-id="93" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 89</span>
+              </button>
+            </li>
+            <li data-zone-id="94" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
                 <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 90</span>
               </button>
             </li>
-            <li data-zone-id="107" class="zone-row">
+            <li data-zone-id="95" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 101</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 91</span>
               </button>
             </li>
-            <li data-zone-id="108" class="zone-row">
+            <li data-zone-id="96" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 102</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 92</span>
               </button>
             </li>
-            <li data-zone-id="110" class="zone-row">
+            <li data-zone-id="97" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 105</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 93</span>
               </button>
             </li>
-            <li data-zone-id="112" class="zone-row">
+            <li data-zone-id="98" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 111</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 94</span>
               </button>
             </li>
-            <li data-zone-id="109" class="zone-row">
+            <li data-zone-id="99" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
-                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 110</span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 95</span>
+              </button>
+            </li>
+            <li data-zone-id="100" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 96</span>
+              </button>
+            </li>
+            <li data-zone-id="101" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 97</span>
+              </button>
+            </li>
+            <li data-zone-id="102" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 98</span>
+              </button>
+            </li>
+            <li data-zone-id="103" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 99</span>
+              </button>
+            </li>
+            <li data-zone-id="104" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 100</span>
               </button>
             </li>
             <li data-zone-id="105" class="zone-row">
               <button type="button"
                       onclick=""
                       class="zone-row-button">
-                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0 bg-gray-300"></span>
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 101</span>
+              </button>
+            </li>
+            <li data-zone-id="106" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 102</span>
+              </button>
+            </li>
+            <li data-zone-id="107" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 103</span>
+              </button>
+            </li>
+            <li data-zone-id="108" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 104</span>
+              </button>
+            </li>
+            <li data-zone-id="109" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 105</span>
+              </button>
+            </li>
+            <li data-zone-id="110" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 106</span>
+              </button>
+            </li>
+            <li data-zone-id="112" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 107</span>
+              </button>
+            </li>
+            <li data-zone-id="113" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
                 <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 108</span>
+              </button>
+            </li>
+            <li data-zone-id="114" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 109</span>
+              </button>
+            </li>
+            <li data-zone-id="115" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 110</span>
+              </button>
+            </li>
+            <li data-zone-id="116" class="zone-row">
+              <button type="button"
+                      onclick=""
+                      class="zone-row-button">
+                <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background-color: #d1d5db"></span>
+                <span class="font-bold text-black text-sm truncate flex-1 text-left">Zone 111</span>
               </button>
             </li>
         </ul>
@@ -1018,9 +1047,13 @@
 
 <script>
   (function() {
-    var airtagMarkers = [{"lat":"40.7985988","lng":"-73.9661642","teamName":"Blue 1","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/0355D1/white?text=1","backgroundUrl":"https://placehold.co/500/0355D1/0355D1","members":[]},{"lat":"40.7986771","lng":"-73.9668877","teamName":"Green 1","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/89C400/white?text=1","backgroundUrl":"https://placehold.co/500/89C400/89C400","members":[]},{"lat":"40.7986771","lng":"-73.9668877","teamName":"Blue 2","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/0355D1/white?text=2","backgroundUrl":"https://placehold.co/500/0355D1/0355D1","members":[]},{"lat":"40.7986771","lng":"-73.9668877","teamName":"Blue 3","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/0355D1/white?text=3","backgroundUrl":"https://placehold.co/500/0355D1/0355D1","members":[]},{"lat":"40.7987824","lng":"-73.9667567","teamName":"Blue 4","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/0355D1/white?text=4","backgroundUrl":"https://placehold.co/500/0355D1/0355D1","members":[]},{"lat":"40.7986771","lng":"-73.9668877","teamName":"Green 2","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/89C400/white?text=2","backgroundUrl":"https://placehold.co/500/89C400/89C400","members":[]},{"lat":"40.7986771","lng":"-73.9668877","teamName":"Green 3","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/89C400/white?text=3","backgroundUrl":"https://placehold.co/500/89C400/89C400","members":[]},{"lat":"40.798678","lng":"-73.9669195","teamName":"Green 4","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/89C400/white?text=4","backgroundUrl":"https://placehold.co/500/89C400/89C400","members":[]},{"lat":"40.7987298","lng":"-73.966413","teamName":"Orange 1","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/FF681C/white?text=1","backgroundUrl":"https://placehold.co/500/FF681C/FF681C","members":[]},{"lat":"40.7986989","lng":"-73.9666145","teamName":"Orange 2","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/FF681C/white?text=2","backgroundUrl":"https://placehold.co/500/FF681C/FF681C","members":[]},{"lat":"40.7986771","lng":"-73.9668877","teamName":"Orange 3","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/FF681C/white?text=3","backgroundUrl":"https://placehold.co/500/FF681C/FF681C","members":[]},{"lat":"40.7987824","lng":"-73.9667567","teamName":"Orange 4","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/FF681C/white?text=4","backgroundUrl":"https://placehold.co/500/FF681C/FF681C","members":[]},{"lat":"40.7987824","lng":"-73.9667567","teamName":"Yellow 1","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/FECB0D/white?text=1","backgroundUrl":"https://placehold.co/500/FECB0D/FECB0D","members":[]},{"lat":"40.798695","lng":"-73.9663623","teamName":"Yellow 2","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/FECB0D/white?text=2","backgroundUrl":"https://placehold.co/500/FECB0D/FECB0D","members":[]},{"lat":"40.7987287","lng":"-73.9664637","teamName":"Yellow 3","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/FECB0D/white?text=3","backgroundUrl":"https://placehold.co/500/FECB0D/FECB0D","members":[]},{"lat":"40.7989097","lng":"-73.9667809","teamName":"Yellow 4","timeAgo":"about 5 hours","avatarUrl":"https://placehold.co/500/FECB0D/white?text=4","backgroundUrl":"https://placehold.co/500/FECB0D/FECB0D","members":[]}];
-    var zones   = [{"id":"56","name":"City Hall","coordinates":[{"lat":40.71472,"lng":-74.009936},{"lat":40.713573872703535,"lng":-74.01081529524718},{"lat":40.712182970530854,"lng":-74.01186701336741},{"lat":40.71002837062362,"lng":-74.01284340427469},{"lat":40.70910926065447,"lng":-74.01067617644831},{"lat":40.7084018393494,"lng":-74.00942080700287},{"lat":40.707571765040875,"lng":-74.00827274945684},{"lat":40.70673389333333,"lng":-74.00681371308099},{"lat":40.710833,"lng":-74.00058}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"99","name":"Clinton Hall","coordinates":[{"lat":40.733543,"lng":-73.995377},{"lat":40.729121,"lng":-73.98423},{"lat":40.729116,"lng":-73.984239},{"lat":40.725209,"lng":-73.987116},{"lat":40.730146,"lng":-73.998099}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"38","name":"Diner that serves coke","coordinates":[{"lat":40.778112280923,"lng":-73.95860910415651},{"lat":40.7749,"lng":-73.961006},{"lat":40.77303439617892,"lng":-73.96232127200776},{"lat":40.76980058318257,"lng":-73.95459650061949},{"lat":40.77472430355596,"lng":-73.95086295992444},{"lat":40.77487872604701,"lng":-73.95071269024201}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"37","name":"Diner that serves coke","coordinates":[{"lat":40.778112280923,"lng":-73.95860910415651},{"lat":40.7749,"lng":-73.961006},{"lat":40.77303439617892,"lng":-73.96232127200776},{"lat":40.76980058318257,"lng":-73.95459650061949},{"lat":40.77472430355596,"lng":-73.95086295992444},{"lat":40.77487872604701,"lng":-73.95071269024201}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"48","name":"Flatiron","coordinates":[{"lat":40.744361,"lng":-73.987686},{"lat":40.74404617139465,"lng":-73.98686850959882},{"lat":40.74005505616412,"lng":-73.97626878244861},{"lat":40.736348172780474,"lng":-73.97897234074388},{"lat":40.740965578141854,"lng":-73.99002303245989}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"28","name":"Friends","coordinates":[{"lat":40.73937254803033,"lng":-74.00626654204822},{"lat":40.7407549122189,"lng":-74.00957089620076},{"lat":40.73215319032559,"lng":-74.01038636321022},{"lat":40.731893875591275,"lng":-74.00583731796095},{"lat":40.73176301089341,"lng":-74.00429294091171},{"lat":40.73826671937674,"lng":-74.00371331962326}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"100","name":"Gatekeeper","coordinates":[{"lat":40.705823321603475,"lng":-74.01699001609148},{"lat":40.70504235810626,"lng":-74.013256451833},{"lat":40.70354578973026,"lng":-74.01310086250307},{"lat":40.702182,"lng":-74.016528},{"lat":40.703704,"lng":-74.017783}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"81","name":"Hess Triangle","coordinates":[{"lat":40.738267,"lng":-74.003713},{"lat":40.73473849300124,"lng":-73.99465788954689},{"lat":40.732250727968484,"lng":-73.9964389470849},{"lat":40.728518,"lng":-73.999687},{"lat":40.72517693049554,"lng":-74.00234003804124},{"lat":40.7315862075392,"lng":-74.00223250440665},{"lat":40.73176301637956,"lng":-74.00418563368387},{"lat":40.73197429230774,"lng":-74.00414237401267}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"35","name":"I love NY Mural","coordinates":[{"lat":40.74286798656786,"lng":-73.99995770844222},{"lat":40.73838844643736,"lng":-74.00370252711029},{"lat":40.734738366825574,"lng":-73.99451858913815},{"lat":40.73945387727315,"lng":-73.99111710982767}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"86","name":"Imagine","coordinates":[{"lat":40.779209,"lng":-73.973715},{"lat":40.774838088584175,"lng":-73.97706269746216},{"lat":40.77114906286867,"lng":-73.96817935799224},{"lat":40.771051527441095,"lng":-73.9680505836587},{"lat":40.775439,"lng":-73.964853}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"59","name":"Intrepid Museum","coordinates":[{"lat":40.76594,"lng":-74.002074},{"lat":40.763172078275446,"lng":-74.00433356549571},{"lat":40.76068212343365,"lng":-73.99847904787765},{"lat":40.76134826549196,"lng":-73.99804980812334},{"lat":40.7620631482597,"lng":-73.99747034112461},{"lat":40.763477522744125,"lng":-73.99637617247035}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"45","name":"Make Magic","coordinates":[{"lat":40.765104,"lng":-73.972557},{"lat":40.76307173452281,"lng":-73.96815584547454},{"lat":40.76117088566902,"lng":-73.96390938480413},{"lat":40.756766,"lng":-73.96702},{"lat":40.760533,"lng":-73.975899}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"49","name":"Mini Museums (fix)","coordinates":[{"lat":40.72231492867431,"lng":-74.00347731334107},{"lat":40.718574401433706,"lng":-73.9949371504123},{"lat":40.7148829119718,"lng":-73.99680368512563},{"lat":40.716818873440644,"lng":-74.00208083981107},{"lat":40.7186730454495,"lng":-74.00652321886473}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"44","name":"Fraction","coordinates":[{"lat":40.76419,"lng":-73.984627},{"lat":40.76860618421306,"lng":-73.98132200768046},{"lat":40.76510395348206,"lng":-73.97255658160859},{"lat":40.760533,"lng":-73.975899}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"85","name":"Cleoperta needle and the castle","coordinates":[{"lat":40.783499,"lng":-73.970818},{"lat":40.779208892360955,"lng":-73.97371532419561},{"lat":40.77543913671806,"lng":-73.9648533574953},{"lat":40.779753,"lng":-73.96171}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"73","name":"High Line","coordinates":[{"lat":40.751329,"lng":-74.002375},{"lat":40.751017,"lng":-74.001602},{"lat":40.74347766126828,"lng":-74.0071786999673},{"lat":40.74402232180179,"lng":-74.00847680870349},{"lat":40.751663,"lng":-74.003418}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"27","name":"Bike","coordinates":[{"lat":40.783165431006914,"lng":-73.95482181088943},{"lat":40.779964585728706,"lng":-73.94711854430011},{"lat":40.77487090009878,"lng":-73.95069089325668},{"lat":40.77815331110991,"lng":-73.9586086988657}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"68","name":"Lego Master Builder","coordinates":[{"lat":40.745989,"lng":-73.998005},{"lat":40.742868,"lng":-73.999958},{"lat":40.73949415754193,"lng":-73.99111746957045},{"lat":40.742306742069175,"lng":-73.9891433637355}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"89","name":"Macy","coordinates":[{"lat":40.749695355837915,"lng":-73.98779153823854},{"lat":40.74967910018039,"lng":-73.98772716522218},{"lat":40.74800474617335,"lng":-73.98903608322145},{"lat":40.750394,"lng":-73.994747},{"lat":40.752805,"lng":-73.993019},{"lat":40.750457,"lng":-73.987477},{"lat":40.750352,"lng":-73.987205},{"lat":40.749748,"lng":-73.987725}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"43","name":"Lexiginton Ave \u0026 53rd Street","coordinates":[{"lat":40.760533,"lng":-73.975899},{"lat":40.756766,"lng":-73.96702},{"lat":40.75232836888158,"lng":-73.97021671510937},{"lat":40.754472,"lng":-73.975186},{"lat":40.756084,"lng":-73.979058}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"62","name":"Earth room","coordinates":[{"lat":40.72699777669641,"lng":-73.9998515039989},{"lat":40.722298567560586,"lng":-74.00349886526689},{"lat":40.719111152729454,"lng":-73.9962249689034},{"lat":40.718314496035326,"lng":-73.99431435952562},{"lat":40.72065711432103,"lng":-73.99304781962464},{"lat":40.723746279663644,"lng":-73.99141770574468}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"77","name":"El Sabroso","coordinates":[{"lat":40.75533589075183,"lng":-73.99119260167426},{"lat":40.75296265272439,"lng":-73.99296289500015},{"lat":40.750369900418,"lng":-73.98713705211726},{"lat":40.7529017038391,"lng":-73.98536139319414}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"98","name":"Oldest Broadway","coordinates":[{"lat":40.7596573128818,"lng":-73.98791760324042},{"lat":40.759183921769846,"lng":-73.98826630219405},{"lat":40.756760072159814,"lng":-73.98269533286305},{"lat":40.757365540572515,"lng":-73.9822661535009}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"96","name":"Tree","coordinates":[{"lat":40.729179,"lng":-74.010515},{"lat":40.72532340587205,"lng":-74.01105176792008},{"lat":40.724396613725574,"lng":-74.0024254632657},{"lat":40.728398,"lng":-74.002404}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"50","name":"United Nations","coordinates":[{"lat":40.761171,"lng":-73.963909},{"lat":40.75889,"lng":-73.958419},{"lat":40.756533,"lng":-73.960093},{"lat":40.752369579523204,"lng":-73.96460635856987},{"lat":40.75312543829288,"lng":-73.96637657881823},{"lat":40.751633793935994,"lng":-73.96748187042851},{"lat":40.7526456644376,"lng":-73.97002997606168},{"lat":40.756766,"lng":-73.96702}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"102","name":"Zone 104","coordinates":[{"lat":40.796017,"lng":-73.974884},{"lat":40.7921581890458,"lng":-73.97779153727772},{"lat":40.78780430284229,"lng":-73.96762099184599},{"lat":40.79173702749432,"lng":-73.96459423006672}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"103","name":"Zone 105","coordinates":[{"lat":40.792158,"lng":-73.977792},{"lat":40.78747903547645,"lng":-73.98146157209023},{"lat":40.783499,"lng":-73.970818},{"lat":40.787885,"lng":-73.967514}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"104","name":"Zone 106","coordinates":[{"lat":40.787479,"lng":-73.981462},{"lat":40.78319,"lng":-73.984607},{"lat":40.779222,"lng":-73.973728},{"lat":40.783499,"lng":-73.970818}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"105","name":"Zone 107","coordinates":[{"lat":40.78319,"lng":-73.984607},{"lat":40.778543,"lng":-73.988558},{"lat":40.774838,"lng":-73.977063},{"lat":40.779209,"lng":-73.973715}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"109","name":"Zone 108","coordinates":[{"lat":40.800448,"lng":-73.958142},{"lat":40.804966,"lng":-73.96838},{"lat":40.801099,"lng":-73.971256},{"lat":40.796609,"lng":-73.961098}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"107","name":"Zone 109","coordinates":[{"lat":40.774685,"lng":-73.992115},{"lat":40.771701,"lng":-73.994893},{"lat":40.766756,"lng":-73.98271},{"lat":40.77048369193154,"lng":-73.98008764957497}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"112","name":"Zone 112","coordinates":[{"lat":40.787232,"lng":-73.952107},{"lat":40.795493,"lng":-73.946081},{"lat":40.796803,"lng":-73.949489},{"lat":40.78859855964212,"lng":-73.95528450338023}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"113","name":"Zone 113","coordinates":[{"lat":40.795493,"lng":-73.946081},{"lat":40.791037,"lng":-73.935345},{"lat":40.785058319326424,"lng":-73.94026288874834},{"lat":40.78359586424011,"lng":-73.94356695553849},{"lat":40.787232,"lng":-73.952107}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"114","name":"Zone 114","coordinates":[{"lat":40.774724,"lng":-73.950863},{"lat":40.772416823983676,"lng":-73.94494047276292},{"lat":40.77560184394305,"lng":-73.94223680607591},{"lat":40.783596,"lng":-73.943567},{"lat":40.784032,"lng":-73.944306}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"115","name":"Zone 117","coordinates":[{"lat":40.754686,"lng":-74.006932},{"lat":40.751352,"lng":-74.008392},{"lat":40.750279,"lng":-74.008671},{"lat":40.748734,"lng":-74.007963},{"lat":40.744392,"lng":-74.008585},{"lat":40.743956713752986,"lng":-74.00855182187576},{"lat":40.744891644361125,"lng":-74.00792953995895},{"lat":40.751663,"lng":-74.003418},{"lat":40.751017,"lng":-74.001602},{"lat":40.752197,"lng":-74.000946}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"51","name":"Smallest building","coordinates":[{"lat":40.73158422703582,"lng":-74.00227572140389},{"lat":40.73192587441391,"lng":-74.00583903337785},{"lat":40.73213712788055,"lng":-74.01023826145307},{"lat":40.729162297527765,"lng":-74.01055793984959},{"lat":40.72836554716284,"lng":-74.00236125990597},{"lat":40.73156782979763,"lng":-74.00221113160406}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"101","name":"Zone 101","coordinates":[{"lat":40.71390725260493,"lng":-73.99251234863453},{"lat":40.714802,"lng":-73.980861},{"lat":40.71093049883176,"lng":-73.9806891335954},{"lat":40.70993,"lng":-73.991728}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"108","name":"North Boundary","coordinates":[{"lat":40.809496,"lng":-73.967288},{"lat":40.80425943986532,"lng":-73.95532608032228},{"lat":40.80062106285213,"lng":-73.95798683166505},{"lat":40.80530185492196,"lng":-73.96975464663774}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"106","name":"Zone 108","coordinates":[{"lat":40.778543,"lng":-73.988558},{"lat":40.774685,"lng":-73.992115},{"lat":40.770515,"lng":-73.980111},{"lat":40.774838,"lng":-73.977063}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"24","name":"Tropical Forest","coordinates":[{"lat":40.748357,"lng":-73.980442},{"lat":40.753385,"lng":-73.976655},{"lat":40.750039,"lng":-73.968697},{"lat":40.745028,"lng":-73.972437}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"90","name":"Private Passage","coordinates":[{"lat":40.77170149774382,"lng":-73.99489317000153},{"lat":40.76674494073419,"lng":-73.98268328329735},{"lat":40.76352690941723,"lng":-73.98504379688707},{"lat":40.76859787501269,"lng":-73.99731886718921}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"110","name":"Zone 109","coordinates":[{"lat":40.801099,"lng":-73.971256},{"lat":40.796017,"lng":-73.974884},{"lat":40.7940747305868,"lng":-73.97038936614992},{"lat":40.79475700874779,"lng":-73.96974563598634},{"lat":40.79907794094206,"lng":-73.96669864654542}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"67","name":"Stephen A. Schwarzman Building","coordinates":[{"lat":40.757371,"lng":-73.982262},{"lat":40.756084,"lng":-73.979058},{"lat":40.75099579556288,"lng":-73.98279190063478},{"lat":40.75223118974426,"lng":-73.98577451705934},{"lat":40.75219867966514,"lng":-73.98586034774782},{"lat":40.752247444777865,"lng":-73.98586034774782}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"111","name":"Zone 113","coordinates":[{"lat":40.787232,"lng":-73.952107},{"lat":40.784032,"lng":-73.944306},{"lat":40.779965,"lng":-73.947119},{"lat":40.783165,"lng":-73.954822}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"79","name":"PDT","coordinates":[{"lat":40.729084,"lng":-73.984141},{"lat":40.725259,"lng":-73.987077},{"lat":40.72016,"lng":-73.975014},{"lat":40.724081,"lng":-73.973383}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"29","name":"Times Square","coordinates":[{"lat":40.75533584002297,"lng":-73.99120328925473},{"lat":40.75298752997162,"lng":-73.98539973182727},{"lat":40.756757868355635,"lng":-73.98270625374096},{"lat":40.75910653329916,"lng":-73.98834962622098}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"116","name":"Zone 118","coordinates":[{"lat":40.752197,"lng":-74.000946},{"lat":40.74984,"lng":-73.995285},{"lat":40.745370848871694,"lng":-73.99837047220502},{"lat":40.74781013378657,"lng":-74.00378018077168}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"118","name":"Zone 122","coordinates":[{"lat":40.725161,"lng":-74.011245},{"lat":40.722343,"lng":-74.01185},{"lat":40.72177043411239,"lng":-74.00546195950474},{"lat":40.72454400984834,"lng":-74.00458182735852}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"120","name":"Zone 125","coordinates":[{"lat":40.710351,"lng":-74.018248},{"lat":40.708042,"lng":-74.018805},{"lat":40.707847,"lng":-74.018118},{"lat":40.706927,"lng":-74.018521},{"lat":40.706976,"lng":-74.018902},{"lat":40.706996,"lng":-74.019138},{"lat":40.706065,"lng":-74.019336},{"lat":40.704784,"lng":-74.018961},{"lat":40.704623,"lng":-74.018189},{"lat":40.704737,"lng":-74.017513},{"lat":40.704822454491925,"lng":-74.01733888470174},{"lat":40.70599402777372,"lng":-74.01689881391594},{"lat":40.709655081680914,"lng":-74.01518145082969}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"31","name":"Zone 33","coordinates":[{"lat":40.75039454541082,"lng":-73.9947439024705},{"lat":40.74598910524827,"lng":-73.99800546078608},{"lat":40.74225005417663,"lng":-73.98916490379628},{"lat":40.74670442696362,"lng":-73.98596772242033}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"Grand Central","name":"Zone 34","coordinates":[{"lat":40.756084,"lng":-73.979058},{"lat":40.75479943576424,"lng":-73.97571083113401},{"lat":40.753385,"lng":-73.976655},{"lat":40.7431260024158,"lng":-73.98438155919142},{"lat":40.74436148795233,"lng":-73.98768605954852}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"33","name":"Zone 36","coordinates":[{"lat":40.740884261718094,"lng":-73.99004449955736},{"lat":40.73714545293108,"lng":-73.99289804006135},{"lat":40.73260893349228,"lng":-73.98154684668202},{"lat":40.736299379551426,"lng":-73.97895087364641}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"36","name":"Zone 39","coordinates":[{"lat":40.778112280923,"lng":-73.95860910415651},{"lat":40.7749,"lng":-73.961006},{"lat":40.77303439617892,"lng":-73.96232127200776},{"lat":40.76980058318257,"lng":-73.95459650061949},{"lat":40.77472430355596,"lng":-73.95086295992444},{"lat":40.77487872604701,"lng":-73.95071269024201}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"41","name":"Zone 44","coordinates":[{"lat":40.73354328299153,"lng":-73.9953768960229},{"lat":40.729120578732854,"lng":-73.98422969662191},{"lat":40.73262473249193,"lng":-73.98159028984685},{"lat":40.737125,"lng":-73.992828}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"55","name":"Zone 54","coordinates":[{"lat":40.71862352591969,"lng":-74.00655628664478},{"lat":40.714720259169816,"lng":-74.00993583701475},{"lat":40.71083310006577,"lng":-74.00058019771713},{"lat":40.71485851297931,"lng":-73.99684664288401}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"64","name":"Zone 69","coordinates":[{"lat":40.76094330483413,"lng":-73.9990358054061},{"lat":40.76123586780033,"lng":-73.99978643774203},{"lat":40.75705875822602,"lng":-74.00274757503958},{"lat":40.75729443618541,"lng":-74.00318762001768},{"lat":40.75689621866621,"lng":-74.00223262666687},{"lat":40.75333651772443,"lng":-73.99272674203705},{"lat":40.75714002927082,"lng":-73.98983015654672}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"69","name":"Zone 69","coordinates":[{"lat":40.75311911710853,"lng":-73.96637946416305},{"lat":40.752377508594144,"lng":-73.96459848130043},{"lat":40.75177608140999,"lng":-73.96512151156793},{"lat":40.752447,"lng":-73.96684}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"65","name":"Zone 70","coordinates":[{"lat":40.773034,"lng":-73.962321},{"lat":40.767982485622525,"lng":-73.9660307984026},{"lat":40.76467731907528,"lng":-73.95826577782678},{"lat":40.769801,"lng":-73.954597}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"70","name":"Zone 71","coordinates":[{"lat":40.762115,"lng":-74.001945},{"lat":40.757871,"lng":-74.0047},{"lat":40.75710738472297,"lng":-74.0027685422018},{"lat":40.761185784603185,"lng":-73.99987168584688}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"66","name":"Zone 71","coordinates":[{"lat":40.768061710375925,"lng":-73.96616218328755},{"lat":40.76365749715964,"lng":-73.9693593978882},{"lat":40.75974058662038,"lng":-73.96064771531304},{"lat":40.7644050932515,"lng":-73.95747197983941}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"83","name":"Central Park 3","coordinates":[{"lat":40.792371,"lng":-73.964225},{"lat":40.78788486024512,"lng":-73.96751419845742},{"lat":40.78422938786418,"lng":-73.95854488679481},{"lat":40.788552,"lng":-73.955307}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"82","name":"Central Park 1","coordinates":[{"lat":40.800448,"lng":-73.958142},{"lat":40.79680335721818,"lng":-73.94948897088723},{"lat":40.79285565770721,"lng":-73.95217117990212},{"lat":40.79660865203743,"lng":-73.96109830732571}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"78","name":"Zone 78","coordinates":[{"lat":40.732625,"lng":-73.98159},{"lat":40.728592337569715,"lng":-73.97139791447397},{"lat":40.72408,"lng":-73.973379},{"lat":40.729084,"lng":-73.984141}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"119","name":"Pier 96","coordinates":[{"lat":40.722343,"lng":-74.01185},{"lat":40.718989,"lng":-74.012603},{"lat":40.718631,"lng":-74.008717},{"lat":40.71865606887142,"lng":-74.00866985321046},{"lat":40.72064015471012,"lng":-74.00839090347291},{"lat":40.72207126188067,"lng":-74.00824069976808}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"23","name":"Zone 23","coordinates":[{"lat":40.748357,"lng":-73.980442},{"lat":40.746389,"lng":-73.97571},{"lat":40.745032,"lng":-73.972448},{"lat":40.740058,"lng":-73.976263},{"lat":40.74025,"lng":-73.976773},{"lat":40.740621,"lng":-73.977762},{"lat":40.743329,"lng":-73.984228},{"lat":40.743322,"lng":-73.984234}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"117","name":"Zone 121","coordinates":[{"lat":40.72434795987433,"lng":-74.00244712829591},{"lat":40.723599910552466,"lng":-74.00255441665651},{"lat":40.721192389277036,"lng":-74.00444340341824},{"lat":40.72194873404976,"lng":-74.00549435808371},{"lat":40.724627,"lng":-74.004572},{"lat":40.724397,"lng":-74.002425},{"lat":40.72510207353766,"lng":-74.00239619106621}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"121","name":"Zone 126","coordinates":[{"lat":40.70967816272469,"lng":-74.01510712185741},{"lat":40.705823,"lng":-74.01699},{"lat":40.705816,"lng":-74.016959},{"lat":40.705809,"lng":-74.016929},{"lat":40.705806,"lng":-74.016915},{"lat":40.705042,"lng":-74.013256},{"lat":40.703546,"lng":-74.013101},{"lat":40.703554,"lng":-74.013091},{"lat":40.705548,"lng":-74.008215},{"lat":40.706734,"lng":-74.006814},{"lat":40.707572,"lng":-74.008273},{"lat":40.708402,"lng":-74.009421},{"lat":40.709109,"lng":-74.010676},{"lat":40.710028,"lng":-74.012843},{"lat":40.709206178085466,"lng":-74.01299364483272}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"72","name":"Zone 73","coordinates":[{"lat":40.7652008848692,"lng":-73.99521568093526},{"lat":40.76165778924304,"lng":-73.98641797259411},{"lat":40.75714,"lng":-73.98983},{"lat":40.760682,"lng":-73.998479}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"87","name":"Zone 88","coordinates":[{"lat":40.774838,"lng":-73.977063},{"lat":40.77054785255766,"lng":-73.98019564258696},{"lat":40.76694038324131,"lng":-73.97130133372382},{"lat":40.77105185093241,"lng":-73.96805048224734}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"88","name":"Zone 89","coordinates":[{"lat":40.77054810751462,"lng":-73.98008823394777},{"lat":40.76871179116097,"lng":-73.98148302036996},{"lat":40.76508770159194,"lng":-73.97262096405031},{"lat":40.766907872130425,"lng":-73.97126912127318}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"92","name":"Zone 92","coordinates":[{"lat":40.788552,"lng":-73.955307},{"lat":40.787232,"lng":-73.952107},{"lat":40.78301107163401,"lng":-73.95502554095746},{"lat":40.77552054794698,"lng":-73.96062607820886},{"lat":40.77687181174819,"lng":-73.96373501834668}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"93","name":"Zone 93","coordinates":[{"lat":40.76500521379964,"lng":-73.972750991933},{"lat":40.763639973346265,"lng":-73.96927475479605},{"lat":40.775569279503294,"lng":-73.96051885582585},{"lat":40.77683668215556,"lng":-73.96373753491982}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"94","name":"Zone 95","coordinates":[{"lat":40.76817553047858,"lng":-73.99636381227256},{"lat":40.76468945775833,"lng":-73.99900320962224},{"lat":40.763512,"lng":-73.996436},{"lat":40.765201,"lng":-73.995216},{"lat":40.765023796155376,"lng":-73.99530557845557},{"lat":40.76710407906888,"lng":-73.99378204603363}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"95","name":"Zone 96","coordinates":[{"lat":40.76711507638565,"lng":-73.99377822640344},{"lat":40.765293,"lng":-73.995052},{"lat":40.761690926847805,"lng":-73.98649334436264},{"lat":40.76354779778445,"lng":-73.98513075155064}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"61","name":"Moynihan Train Hall.","coordinates":[{"lat":40.75336873085932,"lng":-73.992684151392},{"lat":40.75375911811098,"lng":-73.99236192814622},{"lat":40.75340132811609,"lng":-73.99255526397877},{"lat":40.75787139848616,"lng":-74.00470023099525},{"lat":40.754685676749986,"lng":-74.00693182889565},{"lat":40.74984,"lng":-73.995285}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"83","name":"Chinatown dumplings?!","coordinates":[{"lat":40.718314,"lng":-73.994315},{"lat":40.716721,"lng":-73.989133},{"lat":40.714501,"lng":-73.990334},{"lat":40.716249,"lng":-73.996132},{"lat":40.718562,"lng":-73.994942}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"84","name":"Central Park 4","coordinates":[{"lat":40.787885,"lng":-73.967514},{"lat":40.78349872533496,"lng":-73.9708183922385},{"lat":40.77975329231002,"lng":-73.96170977315379},{"lat":40.784229,"lng":-73.958545}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"91","name":"Central Park 2","coordinates":[{"lat":40.796609,"lng":-73.961098},{"lat":40.792371,"lng":-73.964225},{"lat":40.788552,"lng":-73.955307},{"lat":40.792856,"lng":-73.952171}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"87","name":"Zone 91","coordinates":[{"lat":40.723746,"lng":-73.991418},{"lat":40.722185,"lng":-73.986311},{"lat":40.717741,"lng":-73.988615},{"lat":40.717427,"lng":-73.988783},{"lat":40.71703785671937,"lng":-73.98899316787721},{"lat":40.717049,"lng":-73.988985},{"lat":40.716777638028674,"lng":-73.98913264274599},{"lat":40.71681016542064,"lng":-73.989315032959},{"lat":40.716972802142045,"lng":-73.98973345756532},{"lat":40.71713543846614,"lng":-73.99035573005678},{"lat":40.71746884168838,"lng":-73.99154663085939},{"lat":40.71830640827061,"lng":-73.9943039417267},{"lat":40.71942856833878,"lng":-73.9936923980713}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"80","name":"Pier","coordinates":[{"lat":40.739567289332086,"lng":-74.00673867922858},{"lat":40.741697045737446,"lng":-74.01154521429207},{"lat":40.74414420171779,"lng":-74.00884117969406},{"lat":40.74107161572403,"lng":-74.001449122494},{"lat":40.7387299875636,"lng":-74.00314450499819},{"lat":40.738597,"lng":-74.003363},{"lat":40.73833164891471,"lng":-74.00371314274297}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"84","name":"Here be fire","coordinates":[{"lat":40.71863980562839,"lng":-74.0087127685547},{"lat":40.718233,"lng":-74.006953},{"lat":40.721192,"lng":-74.004443},{"lat":40.72177,"lng":-74.005462},{"lat":40.721973687369214,"lng":-74.0081548690796}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"85","name":"Zone 87","coordinates":[{"lat":40.709768,"lng":-74.015091},{"lat":40.709337,"lng":-74.013026},{"lat":40.7104670233797,"lng":-74.0126931667328},{"lat":40.7114165000845,"lng":-74.01223182678224},{"lat":40.712178918044536,"lng":-74.01188045740129},{"lat":40.71252251155152,"lng":-74.01161760091783},{"lat":40.712851871710335,"lng":-74.01137083768846},{"lat":40.71365290134627,"lng":-74.01076197624208},{"lat":40.714470185610736,"lng":-74.01013702154161},{"lat":40.714924,"lng":-74.011073},{"lat":40.715371,"lng":-74.013734}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"88","name":"Zone 92","coordinates":[{"lat":40.722185,"lng":-73.986311},{"lat":40.724263,"lng":-73.984854},{"lat":40.725263,"lng":-73.987085},{"lat":40.730185708117375,"lng":-73.99819850921632},{"lat":40.727291289709356,"lng":-74.00060176849367},{"lat":40.72446179272971,"lng":-73.99360656738283}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"90","name":"Zone 96","coordinates":[{"lat":40.74792,"lng":-74.003957},{"lat":40.745351,"lng":-73.998337},{"lat":40.745209,"lng":-73.998434},{"lat":40.743288,"lng":-73.999736},{"lat":40.741332,"lng":-74.001244},{"lat":40.741072,"lng":-74.001452},{"lat":40.74107,"lng":-74.001453},{"lat":40.74107,"lng":-74.001453},{"lat":40.74107,"lng":-74.001453},{"lat":40.74107,"lng":-74.001453},{"lat":40.743492,"lng":-74.007272}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"93","name":"Zone 102","coordinates":[{"lat":40.745566,"lng":-73.97202},{"lat":40.745079,"lng":-73.970776},{"lat":40.74496479182735,"lng":-73.97053956985475},{"lat":40.74837863470466,"lng":-73.9676856994629},{"lat":40.751678516237334,"lng":-73.9648747444153},{"lat":40.75247,"lng":-73.966891}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"89","name":"Zone 94","coordinates":[{"lat":40.75888,"lng":-73.958427},{"lat":40.76307241448451,"lng":-73.95365238189699},{"lat":40.765217694667975,"lng":-73.95191431045534},{"lat":40.767249,"lng":-73.956427},{"lat":40.764726,"lng":-73.958235},{"lat":40.764404999999996,"lng":-73.957472},{"lat":40.759811,"lng":-73.960602}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"76","name":"De Harak Clock","coordinates":[{"lat":40.705624,"lng":-74.00810799999999},{"lat":40.704131,"lng":-74.006224},{"lat":40.7007465419993,"lng":-74.0123386973287},{"lat":40.70120169349392,"lng":-74.01532104305676},{"lat":40.702257,"lng":-74.01634},{"lat":40.705548,"lng":-74.008215},{"lat":40.706631,"lng":-74.006687}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"42","name":"I Love NY","coordinates":[{"lat":40.759643,"lng":-73.98792},{"lat":40.76418976615021,"lng":-73.98462652688826},{"lat":40.76053294042837,"lng":-73.97589861168478},{"lat":40.756084,"lng":-73.979058}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"91","name":"Zone 99","coordinates":[{"lat":40.739681,"lng":-73.972696},{"lat":40.738185,"lng":-73.972664},{"lat":40.735714022586095,"lng":-73.97255659103395},{"lat":40.736446,"lng":-73.974531},{"lat":40.735616,"lng":-73.975196},{"lat":40.736885,"lng":-73.9785},{"lat":40.740663,"lng":-73.975821}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"100","name":"Zone 100","coordinates":[{"lat":40.799127,"lng":-73.943653},{"lat":40.79457831752619,"lng":-73.93107891082765},{"lat":40.791037,"lng":-73.935345},{"lat":40.795493,"lng":-73.946081},{"lat":40.795493,"lng":-73.946081}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"101","name":"Zone 103","coordinates":[{"lat":40.716125,"lng":-73.979819},{"lat":40.71494,"lng":-73.976569},{"lat":40.71250827990296,"lng":-73.97785663604738},{"lat":40.71203660068803,"lng":-73.97811412811281},{"lat":40.710866,"lng":-73.980217},{"lat":40.71093,"lng":-73.980689},{"lat":40.714802,"lng":-73.980861}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"102","name":"Zone 104","coordinates":[{"lat":40.709987,"lng":-73.988693},{"lat":40.709093,"lng":-73.988564},{"lat":40.709776,"lng":-73.981268},{"lat":40.7100603910999,"lng":-73.97974491119386},{"lat":40.710378,"lng":-73.979445},{"lat":40.710866,"lng":-73.980217}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"97","name":"Zone 107","coordinates":[{"lat":40.725884,"lng":-73.972587},{"lat":40.7256,"lng":-73.971763},{"lat":40.715908,"lng":-73.974466},{"lat":40.712004,"lng":-73.976398},{"lat":40.710866,"lng":-73.97747},{"lat":40.710378,"lng":-73.979445},{"lat":40.71086552060471,"lng":-73.98021697998048},{"lat":40.712101660088756,"lng":-73.97802829742433},{"lat":40.71418352734685,"lng":-73.97674083709718},{"lat":40.71836,"lng":-73.975326},{"lat":40.722216,"lng":-73.974159}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"95","name":"Zone 104","coordinates":[{"lat":40.716345,"lng":-73.98051},{"lat":40.719947,"lng":-73.978607},{"lat":40.721363,"lng":-73.977859},{"lat":40.724306,"lng":-73.984822},{"lat":40.718987,"lng":-73.987911}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"96","name":"Zone 105","coordinates":[{"lat":40.715057,"lng":-73.976417},{"lat":40.717678,"lng":-73.975444},{"lat":40.72016,"lng":-73.975014},{"lat":40.721363,"lng":-73.977859},{"lat":40.716345,"lng":-73.98051}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"94","name":"Zone 103","coordinates":[{"lat":40.739681,"lng":-73.972696},{"lat":40.74221733386824,"lng":-73.97184848785402},{"lat":40.744965,"lng":-73.97054},{"lat":40.745566,"lng":-73.97202},{"lat":40.740663,"lng":-73.975821}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"98","name":"Zone 108","coordinates":[{"lat":40.804259,"lng":-73.955326},{"lat":40.799127,"lng":-73.943653},{"lat":40.795489,"lng":-73.946084},{"lat":40.800479,"lng":-73.95812}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"103","name":"Zone 106","coordinates":[{"lat":40.714501,"lng":-73.990334},{"lat":40.714079,"lng":-73.990274},{"lat":40.71405,"lng":-73.990654},{"lat":40.713565,"lng":-73.997984},{"lat":40.713848,"lng":-73.99779},{"lat":40.71386,"lng":-73.997778},{"lat":40.71577741296778,"lng":-73.99628877639772},{"lat":40.716245,"lng":-73.996137}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"104","name":"Zone 107","coordinates":[{"lat":40.710443,"lng":-74.018224},{"lat":40.709873,"lng":-74.015134},{"lat":40.71833080325585,"lng":-74.01281118392946},{"lat":40.718689,"lng":-74.016738},{"lat":40.713614,"lng":-74.017704}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"99","name":"Zone 110","coordinates":[{"lat":40.709858,"lng":-74.002012},{"lat":40.707775,"lng":-73.999786},{"lat":40.704131,"lng":-74.006224},{"lat":40.705548,"lng":-74.008215},{"lat":40.707713,"lng":-74.00516}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"106","name":"Zone 109","coordinates":[{"lat":40.751649,"lng":-73.967517},{"lat":40.750039,"lng":-73.968697},{"lat":40.753385,"lng":-73.976655},{"lat":40.754716,"lng":-73.975777}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"86","name":"Zone 90","coordinates":[{"lat":40.716778,"lng":-73.989133},{"lat":40.719003,"lng":-73.98796},{"lat":40.716125,"lng":-73.979819},{"lat":40.714802,"lng":-73.980861},{"lat":40.714079,"lng":-73.990274},{"lat":40.714501,"lng":-73.990334},{"lat":40.716778,"lng":-73.989133},{"lat":40.719003,"lng":-73.98796},{"lat":40.716125,"lng":-73.979819},{"lat":40.716345,"lng":-73.98051},{"lat":40.719003,"lng":-73.98796},{"lat":40.714501,"lng":-73.990334}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"107","name":"Zone 101","coordinates":[{"lat":40.765218,"lng":-73.951914},{"lat":40.772417,"lng":-73.94494},{"lat":40.774724,"lng":-73.950863},{"lat":40.767562,"lng":-73.956208}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"108","name":"Zone 102","coordinates":[{"lat":40.735616,"lng":-73.975196},{"lat":40.728592,"lng":-73.971398},{"lat":40.732625,"lng":-73.98159},{"lat":40.73691,"lng":-73.978559}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"110","name":"Zone 105","coordinates":[{"lat":40.713565,"lng":-73.997984},{"lat":40.713403,"lng":-73.997319},{"lat":40.713907,"lng":-73.992512},{"lat":40.70993,"lng":-73.991728},{"lat":40.707775,"lng":-73.999786},{"lat":40.709855,"lng":-74.002016}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"112","name":"Zone 111","coordinates":[{"lat":40.727291,"lng":-74.000602},{"lat":40.726998,"lng":-73.999852},{"lat":40.72699,"lng":-73.999857},{"lat":40.724185,"lng":-74.002115},{"lat":40.7236,"lng":-74.002554},{"lat":40.724401,"lng":-74.002469},{"lat":40.7251610474272,"lng":-74.0023720264435},{"lat":40.725876556256814,"lng":-74.00174975395204}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"109","name":"Zone 110","coordinates":[{"lat":40.747997,"lng":-73.989042},{"lat":40.746693,"lng":-73.985941},{"lat":40.750996,"lng":-73.982792},{"lat":40.752199,"lng":-73.98586}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"105","name":"Zone 108","coordinates":[{"lat":40.718989,"lng":-74.012603},{"lat":40.718587,"lng":-74.008783},{"lat":40.718233223261244,"lng":-74.00700688362123},{"lat":40.71633851668173,"lng":-74.00853037834169},{"lat":40.714500681098095,"lng":-74.01016116142274},{"lat":40.71507,"lng":-74.011277},{"lat":40.715436,"lng":-74.013433}],"challenge":null,"status":"unclaimed","current_claim":null}];
-    var teams   = null;
+    var airtagMarkers = [{"lat":40.7987175,"lng":-73.9664667,"teamName":"Team 1","timeAgo":"less than a minute","avatarUrl":"https://placehold.co/500/0355D1/white?text=1","backgroundUrl":"https://placehold.co/500/0355D1/0355D1","members":[{"name":"Isa","avatarUrl":"https://avatars.slack-edge.com/2026-01-08/10288469381040_466c060a8fc04e6a5f03_512.png"},{"name":"Ghost of L87 (Lynn)","avatarUrl":"https://avatars.slack-edge.com/2026-02-06/10443700915159_fe7d2e0e17049c4fe474_192.png"},{"name":"manitej","avatarUrl":"https://avatars.slack-edge.com/2026-01-12/10277917247062_5cabd390687a9f96b699_512.png"},{"name":"thet pai","avatarUrl":"https://avatars.slack-edge.com/2025-09-09/9481119879445_de95c00077bd0dd8074b_512.png"},{"name":"alice","avatarUrl":"https://avatars.slack-edge.com/2026-02-14/10497292203975_8a75c6a8ffee9d23f3bd_512.png"},{"name":"Andre","avatarUrl":"https://avatars.slack-edge.com/2025-10-15/9697580154547_884f001d077c2f9a8c7c_192.png"}]},{"lat":40.7987464,"lng":-73.9664497,"teamName":"Team 1","timeAgo":"about 4 hours","avatarUrl":"https://placehold.co/500/89C400/white?text=1","backgroundUrl":"https://placehold.co/500/89C400/89C400","members":[{"name":"cyril","avatarUrl":"https://avatars.slack-edge.com/2026-05-16/11145179736194_ad4b6b43b05e3a883dbb_192.png"},{"name":"simon","avatarUrl":"https://secure.gravatar.com/avatar/ac6ece6ee832f671a0e4e6f5ca5a8949.jpg?s=512\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-512.png"},{"name":"aj","avatarUrl":"https://avatars.slack-edge.com/2026-05-14/11136508743665_d0671b673984df8b44d4_192.png"},{"name":"Lamparter","avatarUrl":"https://secure.gravatar.com/avatar/02737ec2bfec7a9d6d43ba75202aba3a.jpg?s=512\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png"},{"name":"mochi","avatarUrl":"https://avatars.slack-edge.com/2026-05-21/11177871179170_f42f8e1ab9b36ed0a02b_192.png"}]},{"lat":40.7989272,"lng":-73.9668393,"teamName":"Team 2","timeAgo":"about 7 hours","avatarUrl":"https://placehold.co/500/0355D1/white?text=2","backgroundUrl":"https://placehold.co/500/0355D1/0355D1","members":[{"name":"moukal","avatarUrl":"https://avatars.slack-edge.com/2025-12-30/10206865426773_d1bcbcd6ad8b9cb42152_72.png"},{"name":"Lopa","avatarUrl":"https://avatars.slack-edge.com/2026-01-15/10298375224579_7b347fcc25b37f758669_512.png"},{"name":"Mathias","avatarUrl":"https://avatars.slack-edge.com/2026-01-10/10264282503603_04c9dcad5cdd2dce6038_192.jpg"},{"name":"Paul","avatarUrl":"https://avatars.slack-edge.com/2025-11-16/9956052720176_b94579a6e3f2d90488eb_192.png"},{"name":"misaq.1908","avatarUrl":"https://secure.gravatar.com/avatar/b1a691a6ad64fd1a488b5423fa981d82.jpg?s=512\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-512.png"}]},{"lat":40.7987205,"lng":-73.9663422,"teamName":"Team 3","timeAgo":"about 4 hours","avatarUrl":"https://placehold.co/500/0355D1/white?text=3","backgroundUrl":"https://placehold.co/500/0355D1/0355D1","members":[{"name":"Eddie","avatarUrl":"https://avatars.slack-edge.com/2024-06-06/7238652477058_0647f5b4b21b42b46ca2_192.png"},{"name":"kman","avatarUrl":"https://avatars.slack-edge.com/2025-06-16/9071784869457_4fd10533ef20b9eade75_512.jpg"},{"name":"Yahya","avatarUrl":"https://secure.gravatar.com/avatar/03a8a122ff4ffe14600fc0b8c55b0c2d.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png"},{"name":"m","avatarUrl":"https://avatars.slack-edge.com/2026-01-05/10250286099137_b30af40903a6da8ded0e_512.png"},{"name":"Արեգ (Areg)","avatarUrl":"https://avatars.slack-edge.com/2026-05-16/11143960370674_bae197d35ebfd8342604_192.jpg"}]},{"lat":40.798871,"lng":-73.9666,"teamName":"Team 4","timeAgo":"about 3 hours","avatarUrl":"https://placehold.co/500/0355D1/white?text=4","backgroundUrl":"https://placehold.co/500/0355D1/0355D1","members":[{"name":"Evan Gan","avatarUrl":"https://avatars.slack-edge.com/2025-08-12/9329486658215_7e54160e876c9151e0a0_512.jpg"},{"name":"CyanBlaster","avatarUrl":"https://avatars.slack-edge.com/2026-01-28/10407290770465_483b6a931b7deb1466c0_72.jpg"},{"name":"kook","avatarUrl":"https://avatars.slack-edge.com/2025-09-15/9537212754945_37f9451d09136079c20e_512.png"},{"name":"Erook","avatarUrl":"https://avatars.slack-edge.com/2026-04-06/10860941770900_0d589825a089ba050c0a_72.png"},{"name":"icehunter494","avatarUrl":"https://avatars.slack-edge.com/2026-05-04/11056363827954_5f945d347544d9634222_192.jpg"}]},{"lat":40.7987969,"lng":-73.9663618,"teamName":"Team 2","timeAgo":"about 3 hours","avatarUrl":"https://placehold.co/500/89C400/white?text=2","backgroundUrl":"https://placehold.co/500/89C400/89C400","members":[{"name":"normalperson543","avatarUrl":"https://avatars.slack-edge.com/2026-05-02/11044264330162_1fcdb20be08e6f74c25c_192.png"},{"name":"maxstellar","avatarUrl":"https://avatars.slack-edge.com/2026-04-11/10892193151558_18ce4e66ca5a6973a7b1_192.png"},{"name":"owais","avatarUrl":"https://avatars.slack-edge.com/2026-03-05/10629593627971_951d3eb1ebcd3aba47bf_512.png"},{"name":"Petee125678","avatarUrl":"https://avatars.slack-edge.com/2026-01-08/10259945743682_309b83f53e713f8bedd8_72.png"},{"name":"variidian","avatarUrl":"https://avatars.slack-edge.com/2026-04-28/11004017976226_8d4cad517127513e4353_192.png"}]},{"lat":40.798767,"lng":-73.9665831,"teamName":"Team 3","timeAgo":"about 4 hours","avatarUrl":"https://placehold.co/500/89C400/white?text=3","backgroundUrl":"https://placehold.co/500/89C400/89C400","members":[{"name":"sahil","avatarUrl":"https://avatars.slack-edge.com/2026-04-14/10910688457331_9ab409d522853df85f63_192.png"},{"name":"Sushmita","avatarUrl":"https://secure.gravatar.com/avatar/5dfc2c0b6834300675bcab105f5d2ad4.jpg?s=512\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png"},{"name":"matt","avatarUrl":"https://avatars.slack-edge.com/2026-02-25/10615178361920_99f7a0d6b30881b25f60_192.png"},{"name":"nihaal (neon443)","avatarUrl":"https://avatars.slack-edge.com/2026-03-20/10740708641206_d7f5e657b10e373e706b_192.png"},{"name":"bbqq7","avatarUrl":"https://avatars.slack-edge.com/2026-02-16/10518418968709_dce7b0607f701dc19dd9_192.png"}]},{"lat":40.7987969,"lng":-73.9663618,"teamName":"Team 4","timeAgo":"about 3 hours","avatarUrl":"https://placehold.co/500/89C400/white?text=4","backgroundUrl":"https://placehold.co/500/89C400/89C400","members":[{"name":"Shreya","avatarUrl":"https://avatars.slack-edge.com/2025-12-06/10072219550708_bb6a7af7703cf0582725_512.gif"},{"name":"Fanglin Xu","avatarUrl":"https://avatars.slack-edge.com/2024-08-31/7653012993766_e95587917c558a49d83a_512.png"},{"name":"ved patel","avatarUrl":"https://avatars.slack-edge.com/2026-05-08/11119791006624_dcc1de268c96e0743260_192.png"},{"name":"Riri","avatarUrl":"https://avatars.slack-edge.com/2025-08-25/9405013616646_1940609706c8722786e2_512.jpg"},{"name":"Michelle","avatarUrl":"https://secure.gravatar.com/avatar/db063d5771b7048852035bc3507392d1.jpg?s=512\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-512.png"}]},{"lat":40.798871,"lng":-73.9666,"teamName":"Team 1","timeAgo":"about 4 hours","avatarUrl":"https://placehold.co/500/FF681C/white?text=1","backgroundUrl":"https://placehold.co/500/FF681C/FF681C","members":[{"name":"info6","avatarUrl":"https://secure.gravatar.com/avatar/cd98198525e925f8448fc900dba2586b.jpg?s=192\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-192.png"},{"name":"Alex","avatarUrl":"https://avatars.slack-edge.com/2026-05-19/11160835810866_bfd570957c3f522a74ac_192.jpg"},{"name":"zsharpminor","avatarUrl":"https://avatars.slack-edge.com/2026-04-01/10830637443378_44c0325e42356b57a644_192.png"},{"name":"Nils","avatarUrl":"https://avatars.slack-edge.com/2025-08-03/9297906894340_43f0bcb28a6eeac7ece0_192.png"},{"name":"Alex","avatarUrl":"https://avatars.slack-edge.com/2025-06-24/9091077763619_d7c5096a75ab022da5db_192.png"}]},{"lat":40.798984,"lng":-73.9665571,"teamName":"Team 2","timeAgo":"about 4 hours","avatarUrl":"https://placehold.co/500/FF681C/white?text=2","backgroundUrl":"https://placehold.co/500/FF681C/FF681C","members":[{"name":"caitlin","avatarUrl":"https://secure.gravatar.com/avatar/cce4c9ef0dfff51a49654088109b3bd4.jpg?s=512\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-512.png"},{"name":"reki","avatarUrl":"https://avatars.slack-edge.com/2026-05-04/11083948671552_94f8275ff6729a0c0941_192.png"},{"name":"Priyanshi","avatarUrl":"https://avatars.slack-edge.com/2025-10-09/9674938503828_4ad4e8f28b2216126995_512.png"},{"name":"Kayla","avatarUrl":"https://avatars.slack-edge.com/2025-08-04/9284066494023_1743bcdf643c76abc8f2_512.png"},{"name":"AAA","avatarUrl":"https://avatars.slack-edge.com/2026-04-28/11028188504465_9c054e4eba76c8d77882_192.jpg"}]},{"lat":40.7989348,"lng":-73.9668366,"teamName":"Team 3","timeAgo":"about 4 hours","avatarUrl":"https://placehold.co/500/FF681C/white?text=3","backgroundUrl":"https://placehold.co/500/FF681C/FF681C","members":[{"name":"froppii","avatarUrl":"https://avatars.slack-edge.com/2026-01-07/10256018466929_b6f8583d9aaaab39d1e2_512.jpg"},{"name":"daamin","avatarUrl":"https://avatars.slack-edge.com/2026-01-02/10216728597557_d5e2584510e3a4ecfa67_512.png"},{"name":"mini","avatarUrl":"https://avatars.slack-edge.com/2026-01-17/10331067032481_302b6b040735603a672a_72.jpg"},{"name":"oodlia ju","avatarUrl":"https://avatars.slack-edge.com/2026-02-03/10421077982547_4bf709f461c257309962_512.png"}]},{"lat":40.7989978,"lng":-73.966683,"teamName":"Team 4","timeAgo":"about 3 hours","avatarUrl":"https://placehold.co/500/FF681C/white?text=4","backgroundUrl":"https://placehold.co/500/FF681C/FF681C","members":[{"name":"Aariana Shah","avatarUrl":"https://avatars.slack-edge.com/2025-02-03/8394529051651_16aaf55f475d682f174b_512.jpg"},{"name":"Manan","avatarUrl":"https://avatars.slack-edge.com/2025-12-06/10080919420609_bbb30dde73bfae39f2a8_512.png"},{"name":"Prisha G","avatarUrl":"https://avatars.slack-edge.com/2025-12-13/10110708939091_f4998ec1ecbbde88247b_512.jpg"},{"name":"Harry","avatarUrl":"https://avatars.slack-edge.com/2025-07-07/9156415390083_a45dd99dc69a980b09ae_512.jpg"}]},{"lat":40.7987855,"lng":-73.9664979,"teamName":"Team 1","timeAgo":"about 6 hours","avatarUrl":"https://placehold.co/500/FECB0D/white?text=1","backgroundUrl":"https://placehold.co/500/FECB0D/FECB0D","members":[{"name":"dominic","avatarUrl":"https://avatars.slack-edge.com/2025-11-29/10019348703026_1a1e6bc87ee68054820c_192.png"},{"name":"blowupthenoobs","avatarUrl":"https://avatars.slack-edge.com/2025-10-12/9711724674944_cd94f70a201d7d837e6c_192.jpg"},{"name":"Flary","avatarUrl":"https://avatars.slack-edge.com/2025-08-18/9370574058437_3cbffcfab80d9139ca2c_192.png"},{"name":"ValyMnD","avatarUrl":"https://avatars.slack-edge.com/2026-01-08/10258811714276_46f80b02fe7a147d5bd6_192.png"},{"name":"Flavius","avatarUrl":"https://secure.gravatar.com/avatar/3d10b89a181c59969ef7cf2dd07b9c99.jpg?s=192\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-192.png"}]},{"lat":40.7989334,"lng":-73.9665386,"teamName":"Team 2","timeAgo":"about 7 hours","avatarUrl":"https://placehold.co/500/FECB0D/white?text=2","backgroundUrl":"https://placehold.co/500/FECB0D/FECB0D","members":[{"name":"alex (p variant)","avatarUrl":"https://avatars.slack-edge.com/2025-09-30/9625640631697_00ae565faf30041d8af9_192.png"},{"name":"adishree","avatarUrl":"https://avatars.slack-edge.com/2025-05-06/8854994597493_78aa3b920206cafd81f5_512.png"},{"name":"Neon","avatarUrl":"https://avatars.slack-edge.com/2026-03-19/10768597232192_4a63b725c6b3000d25cb_192.png"},{"name":"sofia","avatarUrl":"https://avatars.slack-edge.com/2026-04-20/10971215577841_8f80b28a48206d61f376_192.png"},{"name":"emoolie","avatarUrl":"https://avatars.slack-edge.com/2026-02-03/10436114204066_c4eaa20581fc17686748_512.png"}]},{"lat":40.7986919,"lng":-73.9663741,"teamName":"Team 3","timeAgo":"less than a minute","avatarUrl":"https://placehold.co/500/FECB0D/white?text=3","backgroundUrl":"https://placehold.co/500/FECB0D/FECB0D","members":[{"name":"technodot","avatarUrl":"https://avatars.slack-edge.com/2026-01-26/10382005272884_248eb590b690830f8423_192.png"},{"name":"Rez","avatarUrl":"https://avatars.slack-edge.com/2026-03-02/10609124991030_ea37bfb9c42a70f558b2_192.png"},{"name":"Wyatt B.","avatarUrl":"https://avatars.slack-edge.com/2026-03-27/10796907120322_04a5553008f60d078148_192.png"},{"name":"Tomatofu","avatarUrl":"https://avatars.slack-edge.com/2026-02-04/10455621552385_07ac94cd1dde9bde10e2_192.png"},{"name":"Miles","avatarUrl":"https://secure.gravatar.com/avatar/9b2169a96c23115d5cecacd744db9d06.jpg?s=192\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-192.png"}]},{"lat":40.7987405,"lng":-73.9664434,"teamName":"Team 4","timeAgo":"about 4 hours","avatarUrl":"https://placehold.co/500/FECB0D/white?text=4","backgroundUrl":"https://placehold.co/500/FECB0D/FECB0D","members":[{"name":"Xanderath","avatarUrl":"https://avatars.slack-edge.com/2026-04-02/10819827671783_7b969e1eb80cef5873b7_192.png"},{"name":"rednadp","avatarUrl":"https://avatars.slack-edge.com/2026-05-02/11044102115138_695bc7b27deb2a1501c1_192.png"},{"name":"hna","avatarUrl":"https://avatars.slack-edge.com/2026-04-10/10890101023830_0c86241406bd355d61aa_192.png"},{"name":"astra","avatarUrl":"https://avatars.slack-edge.com/2026-04-01/10815288754229_ad4a05930797a78bb314_72.jpg"},{"name":"ryangraham005","avatarUrl":"https://secure.gravatar.com/avatar/4bf61bc28846c529a3c26844681f8504.jpg?s=512\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-512.png"}]}];
+    var zones   = [{"id":"1","external_id":"27","name":"Bike","position":1,"coordinates":[{"lat":40.783165431006914,"lng":-73.95482181088943},{"lat":40.779964585728706,"lng":-73.94711854430011},{"lat":40.77487090009878,"lng":-73.95069089325668},{"lat":40.77815331110991,"lng":-73.9586086988657}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"2","external_id":"43","name":"Lexiginton Ave \u0026 53rd Street","position":2,"coordinates":[{"lat":40.760533,"lng":-73.975899},{"lat":40.756766,"lng":-73.96702},{"lat":40.752613181983286,"lng":-73.97004604339601},{"lat":40.754472,"lng":-73.975186},{"lat":40.756084,"lng":-73.979058}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"3","external_id":"56","name":"City Hall","position":3,"coordinates":[{"lat":40.71472,"lng":-74.009936},{"lat":40.713573872703535,"lng":-74.01081529524718},{"lat":40.712182970530854,"lng":-74.01186701336741},{"lat":40.71002837062362,"lng":-74.01284340427469},{"lat":40.70910926065447,"lng":-74.01067617644831},{"lat":40.7084018393494,"lng":-74.00942080700287},{"lat":40.707571765040875,"lng":-74.00827274945684},{"lat":40.70673389333333,"lng":-74.00681371308099},{"lat":40.710833,"lng":-74.00058}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"4","external_id":"85","name":"Cleoperta needle and the castle","position":4,"coordinates":[{"lat":40.783499,"lng":-73.970818},{"lat":40.779208892360955,"lng":-73.97371532419561},{"lat":40.77543913671806,"lng":-73.9648533574953},{"lat":40.779753,"lng":-73.96171}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"5","external_id":"99","name":"Clinton Hall","position":5,"coordinates":[{"lat":40.733543,"lng":-73.995377},{"lat":40.729121,"lng":-73.98423},{"lat":40.729116,"lng":-73.984239},{"lat":40.725209,"lng":-73.987116},{"lat":40.730146,"lng":-73.998099}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"6","external_id":"76","name":"De Harak Clock","position":6,"coordinates":[{"lat":40.705624,"lng":-74.00810799999999},{"lat":40.704131,"lng":-74.006224},{"lat":40.7007465419993,"lng":-74.0123386973287},{"lat":40.70120169349392,"lng":-74.01532104305676},{"lat":40.702257,"lng":-74.01634},{"lat":40.705548,"lng":-74.008215},{"lat":40.706631,"lng":-74.006687}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"8","external_id":"37","name":"Diner that serves coke","position":7,"coordinates":[{"lat":40.778112280923,"lng":-73.95860910415651},{"lat":40.7749,"lng":-73.961006},{"lat":40.77303439617892,"lng":-73.96232127200776},{"lat":40.76980058318257,"lng":-73.95459650061949},{"lat":40.77472430355596,"lng":-73.95086295992444},{"lat":40.77487872604701,"lng":-73.95071269024201}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"9","external_id":"62","name":"Earth room","position":8,"coordinates":[{"lat":40.72699777669641,"lng":-73.9998515039989},{"lat":40.722298567560586,"lng":-74.00349886526689},{"lat":40.719111152729454,"lng":-73.9962249689034},{"lat":40.718314496035326,"lng":-73.99431435952562},{"lat":40.72065711432103,"lng":-73.99304781962464},{"lat":40.723746279663644,"lng":-73.99141770574468}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"10","external_id":"77","name":"El Sabroso","position":9,"coordinates":[{"lat":40.75533589075183,"lng":-73.99119260167426},{"lat":40.75296265272439,"lng":-73.99296289500015},{"lat":40.750369900418,"lng":-73.98713705211726},{"lat":40.7529017038391,"lng":-73.98536139319414}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"11","external_id":"48","name":"Flatiron","position":10,"coordinates":[{"lat":40.744361,"lng":-73.987686},{"lat":40.743355347975395,"lng":-73.98489475250246},{"lat":40.74304646035729,"lng":-73.9841651916504},{"lat":40.7431683898516,"lng":-73.98435831069948},{"lat":40.7433065763416,"lng":-73.98425102233888},{"lat":40.743054588997225,"lng":-73.98360729217531},{"lat":40.74284324403676,"lng":-73.98308157920839},{"lat":40.740022537389514,"lng":-73.97629022598268},{"lat":40.736348172780474,"lng":-73.97897234074388},{"lat":40.740965578141854,"lng":-73.99002303245989}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"12","external_id":"44","name":"Fraction","position":11,"coordinates":[{"lat":40.76419,"lng":-73.984627},{"lat":40.76860618421306,"lng":-73.98132200768046},{"lat":40.76510395348206,"lng":-73.97255658160859},{"lat":40.760533,"lng":-73.975899}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"13","external_id":"28","name":"Friends","position":12,"coordinates":[{"lat":40.73937254803033,"lng":-74.00626654204822},{"lat":40.7407549122189,"lng":-74.00957089620076},{"lat":40.73215319032559,"lng":-74.01038636321022},{"lat":40.731893875591275,"lng":-74.00583731796095},{"lat":40.73176301089341,"lng":-74.00429294091171},{"lat":40.73826671937674,"lng":-74.00371331962326}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"14","external_id":"100","name":"Gatekeeper","position":13,"coordinates":[{"lat":40.705823321603475,"lng":-74.01699001609148},{"lat":40.70504235810626,"lng":-74.013256451833},{"lat":40.70354578973026,"lng":-74.01310086250307},{"lat":40.702182,"lng":-74.016528},{"lat":40.703704,"lng":-74.017783}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"15","external_id":"81","name":"Hess Triangle","position":14,"coordinates":[{"lat":40.738338,"lng":-74.003645},{"lat":40.737528,"lng":-74.001591},{"lat":40.737064,"lng":-74.000472},{"lat":40.731584,"lng":-74.000733},{"lat":40.73155156970947,"lng":-74.00066614151002},{"lat":40.73169791035999,"lng":-74.00070905685426},{"lat":40.731616610038316,"lng":-74.0006446838379},{"lat":40.7315190495212,"lng":-74.0010952949524},{"lat":40.7315190495212,"lng":-74.00100946426393},{"lat":40.73142148886103,"lng":-74.00128841400148},{"lat":40.73148652931705,"lng":-74.00146007537843},{"lat":40.731616610038316,"lng":-74.00180339813234},{"lat":40.7315027894211,"lng":-74.00229692459108},{"lat":40.730748,"lng":-74.002275},{"lat":40.731569,"lng":-74.002241},{"lat":40.731764,"lng":-74.004186},{"lat":40.731975,"lng":-74.004167}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"16","external_id":"73","name":"High Line","position":15,"coordinates":[{"lat":40.751329,"lng":-74.002375},{"lat":40.751017,"lng":-74.001602},{"lat":40.74347766126828,"lng":-74.0071786999673},{"lat":40.74402232180179,"lng":-74.00847680870349},{"lat":40.751663,"lng":-74.003418}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"17","external_id":"35","name":"I love NY Mural","position":16,"coordinates":[{"lat":40.74286798656786,"lng":-73.99995770844222},{"lat":40.73838844643736,"lng":-74.00370252711029},{"lat":40.734738366825574,"lng":-73.99451858913815},{"lat":40.73945387727315,"lng":-73.99111710982767}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"18","external_id":"86","name":"Imagine","position":17,"coordinates":[{"lat":40.779209,"lng":-73.973715},{"lat":40.774838088584175,"lng":-73.97706269746216},{"lat":40.77114906286867,"lng":-73.96817935799224},{"lat":40.771051527441095,"lng":-73.9680505836587},{"lat":40.775439,"lng":-73.964853}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"19","external_id":"59","name":"Intrepid Museum","position":18,"coordinates":[{"lat":40.76594,"lng":-74.002074},{"lat":40.763172078275446,"lng":-74.00433356549571},{"lat":40.76068212343365,"lng":-73.99847904787765},{"lat":40.76134826549196,"lng":-73.99804980812334},{"lat":40.7620631482597,"lng":-73.99747034112461},{"lat":40.763477522744125,"lng":-73.99637617247035}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"20","external_id":"68","name":"Lego Master Builder","position":19,"coordinates":[{"lat":40.745989,"lng":-73.998005},{"lat":40.742868,"lng":-73.999958},{"lat":40.73949415754193,"lng":-73.99111746957045},{"lat":40.742306742069175,"lng":-73.9891433637355}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"21","external_id":"89","name":"Penn station","position":20,"coordinates":[{"lat":40.74993919022361,"lng":-73.99142861366273},{"lat":40.74921581227098,"lng":-73.9919435977936},{"lat":40.74919955649626,"lng":-73.9919435977936},{"lat":40.750394,"lng":-73.994747},{"lat":40.75294234374803,"lng":-73.99296283721925},{"lat":40.75169883519761,"lng":-73.9901787042618},{"lat":40.75106894454185,"lng":-73.99055957794191},{"lat":40.75055689999901,"lng":-73.99094581604005}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"22","external_id":"45","name":"Make Magic","position":21,"coordinates":[{"lat":40.765104,"lng":-73.972557},{"lat":40.76307173452281,"lng":-73.96815584547454},{"lat":40.76117088566902,"lng":-73.96390938480413},{"lat":40.756766,"lng":-73.96702},{"lat":40.760533,"lng":-73.975899}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"23","external_id":"49","name":"Canal Street (DO NOT BUY STUFF FROM RANDOM PEOPLE)","position":22,"coordinates":[{"lat":40.72231492867431,"lng":-74.00347731334107},{"lat":40.718574401433706,"lng":-73.9949371504123},{"lat":40.7148829119718,"lng":-73.99680368512563},{"lat":40.716818873440644,"lng":-74.00208083981107},{"lat":40.7186730454495,"lng":-74.00652321886473}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"24","external_id":"61","name":"Moynihan Train Hall.","position":23,"coordinates":[{"lat":40.75336873085932,"lng":-73.992684151392},{"lat":40.75375911811098,"lng":-73.99236192814622},{"lat":40.75340132811609,"lng":-73.99255526397877},{"lat":40.75787139848616,"lng":-74.00470023099525},{"lat":40.754685676749986,"lng":-74.00693182889565},{"lat":40.74984,"lng":-73.995285}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"25","external_id":"108","name":"Diner","position":24,"coordinates":[{"lat":40.809496,"lng":-73.967288},{"lat":40.80425943986532,"lng":-73.95532608032228},{"lat":40.80062106285213,"lng":-73.95798683166505},{"lat":40.80530185492196,"lng":-73.96975464663774}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"26","external_id":"98","name":"Broadway","position":25,"coordinates":[{"lat":40.7596573128818,"lng":-73.98791760324042},{"lat":40.759183921769846,"lng":-73.98826630219405},{"lat":40.756760072159814,"lng":-73.98269533286305},{"lat":40.757365540572515,"lng":-73.9822661535009}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"27","external_id":"79","name":"PDT","position":26,"coordinates":[{"lat":40.729084,"lng":-73.984141},{"lat":40.725259,"lng":-73.987077},{"lat":40.72016,"lng":-73.975014},{"lat":40.724081,"lng":-73.973383}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"28","external_id":"90","name":"Private Passage","position":27,"coordinates":[{"lat":40.77170149774382,"lng":-73.99489317000153},{"lat":40.76674494073419,"lng":-73.98268328329735},{"lat":40.76352690941723,"lng":-73.98504379688707},{"lat":40.76859787501269,"lng":-73.99731886718921}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"29","external_id":"42","name":"I Love NY","position":28,"coordinates":[{"lat":40.759643,"lng":-73.98792},{"lat":40.76418976615021,"lng":-73.98462652688826},{"lat":40.76053294042837,"lng":-73.97589861168478},{"lat":40.756084,"lng":-73.979058}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"30","external_id":"51","name":"Smallest building","position":29,"coordinates":[{"lat":40.73158422703582,"lng":-74.00227572140389},{"lat":40.73192587441391,"lng":-74.00583903337785},{"lat":40.73213712788055,"lng":-74.01023826145307},{"lat":40.729162297527765,"lng":-74.01055793984959},{"lat":40.72836554716284,"lng":-74.00236125990597},{"lat":40.73156782979763,"lng":-74.00221113160406}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"31","external_id":"67","name":"Stephen A. Schwarzman Building","position":30,"coordinates":[{"lat":40.757371,"lng":-73.982262},{"lat":40.756084,"lng":-73.979058},{"lat":40.75099579556288,"lng":-73.98279190063478},{"lat":40.75223118974426,"lng":-73.98577451705934},{"lat":40.75219867966514,"lng":-73.98586034774782},{"lat":40.752247444777865,"lng":-73.98586034774782}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"32","external_id":"29","name":"Times Square","position":31,"coordinates":[{"lat":40.75533584002297,"lng":-73.99120328925473},{"lat":40.75298752997162,"lng":-73.98539973182727},{"lat":40.756757868355635,"lng":-73.98270625374096},{"lat":40.75910653329916,"lng":-73.98834962622098}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"33","external_id":"96","name":"Tree","position":32,"coordinates":[{"lat":40.729179,"lng":-74.010515},{"lat":40.72532340587205,"lng":-74.01105176792008},{"lat":40.724396613725574,"lng":-74.0024254632657},{"lat":40.728398,"lng":-74.002404}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"34","external_id":"24","name":"Tropical Forest","position":33,"coordinates":[{"lat":40.748357,"lng":-73.980442},{"lat":40.753385,"lng":-73.976655},{"lat":40.750039,"lng":-73.968697},{"lat":40.745028,"lng":-73.972437}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"36","external_id":"50","name":"United Nations","position":34,"coordinates":[{"lat":40.761171,"lng":-73.963909},{"lat":40.75889,"lng":-73.958419},{"lat":40.756533,"lng":-73.960093},{"lat":40.752369579523204,"lng":-73.96460635856987},{"lat":40.75312543829288,"lng":-73.96637657881823},{"lat":40.751633793935994,"lng":-73.96748187042851},{"lat":40.7526456644376,"lng":-73.97002997606168},{"lat":40.756766,"lng":-73.96702}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"37","external_id":"101","name":"Zone 101","position":35,"coordinates":[{"lat":40.71390725260493,"lng":-73.99251234863453},{"lat":40.714802,"lng":-73.980861},{"lat":40.71093049883176,"lng":-73.9806891335954},{"lat":40.70993,"lng":-73.991728}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"38","external_id":"102","name":"Zone 104","position":36,"coordinates":[{"lat":40.796017,"lng":-73.974884},{"lat":40.7921581890458,"lng":-73.97779153727772},{"lat":40.78780430284229,"lng":-73.96762099184599},{"lat":40.79173702749432,"lng":-73.96459423006672}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"39","external_id":"103","name":"Zone 105","position":37,"coordinates":[{"lat":40.792158,"lng":-73.977792},{"lat":40.78747903547645,"lng":-73.98146157209023},{"lat":40.783499,"lng":-73.970818},{"lat":40.787885,"lng":-73.967514}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"40","external_id":"104","name":"Zone 106","position":38,"coordinates":[{"lat":40.787479,"lng":-73.981462},{"lat":40.78319,"lng":-73.984607},{"lat":40.779222,"lng":-73.973728},{"lat":40.783499,"lng":-73.970818}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"41","external_id":"105","name":"Zone 107","position":39,"coordinates":[{"lat":40.78319,"lng":-73.984607},{"lat":40.778543,"lng":-73.988558},{"lat":40.774838,"lng":-73.977063},{"lat":40.779209,"lng":-73.973715}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"42","external_id":"106","name":"Zone 108","position":40,"coordinates":[{"lat":40.778543,"lng":-73.988558},{"lat":40.774685,"lng":-73.992115},{"lat":40.770515,"lng":-73.980111},{"lat":40.774838,"lng":-73.977063}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"43","external_id":"109","name":"Zone 108","position":41,"coordinates":[{"lat":40.800448,"lng":-73.958142},{"lat":40.804966,"lng":-73.96838},{"lat":40.801099,"lng":-73.971256},{"lat":40.796609,"lng":-73.961098}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"44","external_id":"107","name":"Zone 109","position":42,"coordinates":[{"lat":40.774685,"lng":-73.992115},{"lat":40.771701,"lng":-73.994893},{"lat":40.766756,"lng":-73.98271},{"lat":40.77048369193154,"lng":-73.98008764957497}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"45","external_id":"110","name":"Zone 109","position":43,"coordinates":[{"lat":40.801099,"lng":-73.971256},{"lat":40.796017,"lng":-73.974884},{"lat":40.7940747305868,"lng":-73.97038936614992},{"lat":40.79475700874779,"lng":-73.96974563598634},{"lat":40.79907794094206,"lng":-73.96669864654542}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"46","external_id":"112","name":"Hall of fame","position":44,"coordinates":[{"lat":40.787232,"lng":-73.952107},{"lat":40.795493,"lng":-73.946081},{"lat":40.796803,"lng":-73.949489},{"lat":40.78859855964212,"lng":-73.95528450338023}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"47","external_id":"113","name":"Zone 113","position":45,"coordinates":[{"lat":40.795493,"lng":-73.946081},{"lat":40.791037,"lng":-73.935345},{"lat":40.785058319326424,"lng":-73.94026288874834},{"lat":40.78359586424011,"lng":-73.94356695553849},{"lat":40.787232,"lng":-73.952107}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"48","external_id":"111","name":"Zone 113","position":46,"coordinates":[{"lat":40.787232,"lng":-73.952107},{"lat":40.784032,"lng":-73.944306},{"lat":40.779965,"lng":-73.947119},{"lat":40.783165,"lng":-73.954822}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"49","external_id":"114","name":"Zone 114","position":47,"coordinates":[{"lat":40.774724,"lng":-73.950863},{"lat":40.772416823983676,"lng":-73.94494047276292},{"lat":40.77560184394305,"lng":-73.94223680607591},{"lat":40.783596,"lng":-73.943567},{"lat":40.784032,"lng":-73.944306}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"50","external_id":"115","name":"Zone 117","position":48,"coordinates":[{"lat":40.754686,"lng":-74.006932},{"lat":40.751352,"lng":-74.008392},{"lat":40.750279,"lng":-74.008671},{"lat":40.748734,"lng":-74.007963},{"lat":40.744392,"lng":-74.008585},{"lat":40.743956713752986,"lng":-74.00855182187576},{"lat":40.744891644361125,"lng":-74.00792953995895},{"lat":40.751663,"lng":-74.003418},{"lat":40.751017,"lng":-74.001602},{"lat":40.752197,"lng":-74.000946}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"51","external_id":"116","name":"Zone 118","position":49,"coordinates":[{"lat":40.752197,"lng":-74.000946},{"lat":40.74984,"lng":-73.995285},{"lat":40.745370848871694,"lng":-73.99837047220502},{"lat":40.74781013378657,"lng":-74.00378018077168}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"52","external_id":"117","name":"Zone 121","position":50,"coordinates":[{"lat":40.72434795987433,"lng":-74.00244712829591},{"lat":40.723599910552466,"lng":-74.00255441665651},{"lat":40.721192389277036,"lng":-74.00444340341824},{"lat":40.72194873404976,"lng":-74.00549435808371},{"lat":40.724627,"lng":-74.004572},{"lat":40.724397,"lng":-74.002425},{"lat":40.72510207353766,"lng":-74.00239619106621}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"53","external_id":"118","name":"Zone 122","position":51,"coordinates":[{"lat":40.725161,"lng":-74.011245},{"lat":40.722343,"lng":-74.01185},{"lat":40.72177043411239,"lng":-74.00546195950474},{"lat":40.72454400984834,"lng":-74.00458182735852}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"54","external_id":"119","name":"Pier 96","position":52,"coordinates":[{"lat":40.722343,"lng":-74.01185},{"lat":40.718989,"lng":-74.012603},{"lat":40.718631,"lng":-74.008717},{"lat":40.71865606887142,"lng":-74.00866985321046},{"lat":40.72064015471012,"lng":-74.00839090347291},{"lat":40.72207126188067,"lng":-74.00824069976808}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"55","external_id":"120","name":"Zone 125","position":53,"coordinates":[{"lat":40.71043449288867,"lng":-74.01821583509447},{"lat":40.708042,"lng":-74.018805},{"lat":40.707847,"lng":-74.018118},{"lat":40.706927,"lng":-74.018521},{"lat":40.706976,"lng":-74.018902},{"lat":40.706996,"lng":-74.019138},{"lat":40.706065,"lng":-74.019336},{"lat":40.704784,"lng":-74.018961},{"lat":40.704623,"lng":-74.018189},{"lat":40.704737,"lng":-74.017513},{"lat":40.704822454491925,"lng":-74.01733888470174},{"lat":40.70599402777372,"lng":-74.01689881391594},{"lat":40.7098347091131,"lng":-74.01506692171098}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"56","external_id":"121","name":"Zone 126","position":54,"coordinates":[{"lat":40.709751348906515,"lng":-74.0151071548462},{"lat":40.705823,"lng":-74.01699},{"lat":40.705816,"lng":-74.016959},{"lat":40.705809,"lng":-74.016929},{"lat":40.705806,"lng":-74.016915},{"lat":40.705042,"lng":-74.013256},{"lat":40.703546,"lng":-74.013101},{"lat":40.703554,"lng":-74.013091},{"lat":40.705548,"lng":-74.008215},{"lat":40.705815001813455,"lng":-74.00772571563722},{"lat":40.70617286116384,"lng":-74.00830507278444},{"lat":40.70663644882689,"lng":-74.00902390480043},{"lat":40.70744161972968,"lng":-74.01026844978334},{"lat":40.70779133739246,"lng":-74.01079416275026},{"lat":40.70805159120539,"lng":-74.01124477386476},{"lat":40.709279650161925,"lng":-74.01296138763429},{"lat":40.70932844673873,"lng":-74.01303112506868}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"57","external_id":"23","name":"Zone 23","position":55,"coordinates":[{"lat":40.748357,"lng":-73.980442},{"lat":40.746389,"lng":-73.97571},{"lat":40.745032,"lng":-73.972448},{"lat":40.740058,"lng":-73.976263},{"lat":40.74025,"lng":-73.976773},{"lat":40.740621,"lng":-73.977762},{"lat":40.743329,"lng":-73.984228},{"lat":40.743322,"lng":-73.984234}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"58","external_id":"31","name":"Zone 33","position":56,"coordinates":[{"lat":40.75039454541082,"lng":-73.9947439024705},{"lat":40.74598910524827,"lng":-73.99800546078608},{"lat":40.74225005417663,"lng":-73.98916490379628},{"lat":40.74670442696362,"lng":-73.98596772242033}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"59","external_id":"Grand Central","name":"Zone 34","position":57,"coordinates":[{"lat":40.756084,"lng":-73.979058},{"lat":40.75479943576424,"lng":-73.97571083113401},{"lat":40.753385,"lng":-73.976655},{"lat":40.7431260024158,"lng":-73.98438155919142},{"lat":40.74436148795233,"lng":-73.98768605954852}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"60","external_id":"33","name":"Zone 36","position":58,"coordinates":[{"lat":40.740884261718094,"lng":-73.99004449955736},{"lat":40.73714545293108,"lng":-73.99289804006135},{"lat":40.73260893349228,"lng":-73.98154684668202},{"lat":40.736299379551426,"lng":-73.97895087364641}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"61","external_id":"36","name":"Zone 39","position":59,"coordinates":[{"lat":40.778112280923,"lng":-73.95860910415651},{"lat":40.7749,"lng":-73.961006},{"lat":40.77303439617892,"lng":-73.96232127200776},{"lat":40.76980058318257,"lng":-73.95459650061949},{"lat":40.77472430355596,"lng":-73.95086295992444},{"lat":40.77487872604701,"lng":-73.95071269024201}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"62","external_id":"41","name":"Zone 44","position":60,"coordinates":[{"lat":40.73354328299153,"lng":-73.9953768960229},{"lat":40.729120578732854,"lng":-73.98422969662191},{"lat":40.73262473249193,"lng":-73.98159028984685},{"lat":40.737125,"lng":-73.992828}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"63","external_id":"55","name":"Zone 54","position":61,"coordinates":[{"lat":40.718648,"lng":-74.006607},{"lat":40.71472,"lng":-74.009937},{"lat":40.71102003929522,"lng":-74.00086998939516},{"lat":40.71193901146775,"lng":-73.99995803833009},{"lat":40.71284170629769,"lng":-73.99897098541261},{"lat":40.71387450428991,"lng":-73.99796247482301},{"lat":40.714938,"lng":-73.997052}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"64","external_id":"64","name":"Zone 69","position":62,"coordinates":[{"lat":40.76094330483413,"lng":-73.9990358054061},{"lat":40.76123586780033,"lng":-73.99978643774203},{"lat":40.75705875822602,"lng":-74.00274757503958},{"lat":40.75729443618541,"lng":-74.00318762001768},{"lat":40.75689621866621,"lng":-74.00223262666687},{"lat":40.75333651772443,"lng":-73.99272674203705},{"lat":40.75714002927082,"lng":-73.98983015654672}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"65","external_id":"69","name":"Zone 69","position":63,"coordinates":[{"lat":40.75311911710853,"lng":-73.96637946416305},{"lat":40.752377508594144,"lng":-73.96459848130043},{"lat":40.75177608140999,"lng":-73.96512151156793},{"lat":40.752447,"lng":-73.96684}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"66","external_id":"65","name":"Zone 70","position":64,"coordinates":[{"lat":40.773034,"lng":-73.962321},{"lat":40.767982485622525,"lng":-73.9660307984026},{"lat":40.76467731907528,"lng":-73.95826577782678},{"lat":40.769801,"lng":-73.954597}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"67","external_id":"70","name":"Zone 71","position":65,"coordinates":[{"lat":40.762115,"lng":-74.001945},{"lat":40.757871,"lng":-74.0047},{"lat":40.75710738472297,"lng":-74.0027685422018},{"lat":40.761185784603185,"lng":-73.99987168584688}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"68","external_id":"66","name":"Zone 71","position":66,"coordinates":[{"lat":40.768061710375925,"lng":-73.96616218328755},{"lat":40.76365749715964,"lng":-73.9693593978882},{"lat":40.75974058662038,"lng":-73.96064771531304},{"lat":40.7644050932515,"lng":-73.95747197983941}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"70","external_id":"72","name":"Zone 73","position":67,"coordinates":[{"lat":40.7652008848692,"lng":-73.99521568093526},{"lat":40.76165778924304,"lng":-73.98641797259411},{"lat":40.75714,"lng":-73.98983},{"lat":40.760682,"lng":-73.998479}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"71","external_id":"78","name":"Zone 78","position":68,"coordinates":[{"lat":40.732625,"lng":-73.98159},{"lat":40.728592337569715,"lng":-73.97139791447397},{"lat":40.72408,"lng":-73.973379},{"lat":40.729084,"lng":-73.984141}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"72","external_id":"80","name":"Pier","position":69,"coordinates":[{"lat":40.739567289332086,"lng":-74.00673867922858},{"lat":40.741697045737446,"lng":-74.01154521429207},{"lat":40.74414420171779,"lng":-74.00884117969406},{"lat":40.74107161572403,"lng":-74.001449122494},{"lat":40.7387299875636,"lng":-74.00314450499819},{"lat":40.738597,"lng":-74.003363},{"lat":40.73833164891471,"lng":-74.00371314274297}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"73","external_id":"82","name":"Central Park 1","position":70,"coordinates":[{"lat":40.800448,"lng":-73.958142},{"lat":40.79680335721818,"lng":-73.94948897088723},{"lat":40.79285565770721,"lng":-73.95217117990212},{"lat":40.79660865203743,"lng":-73.96109830732571}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"74","external_id":"83","name":"Central Park 3","position":71,"coordinates":[{"lat":40.792371,"lng":-73.964225},{"lat":40.78788486024512,"lng":-73.96751419845742},{"lat":40.78422938786418,"lng":-73.95854488679481},{"lat":40.788552,"lng":-73.955307}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"75","external_id":"84","name":"Central Park 4","position":72,"coordinates":[{"lat":40.787885,"lng":-73.967514},{"lat":40.78349872533496,"lng":-73.9708183922385},{"lat":40.77975329231002,"lng":-73.96170977315379},{"lat":40.784229,"lng":-73.958545}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"76","external_id":"87","name":"Zone 88","position":73,"coordinates":[{"lat":40.774838,"lng":-73.977063},{"lat":40.77054785255766,"lng":-73.98019564258696},{"lat":40.76694038324131,"lng":-73.97130133372382},{"lat":40.77105185093241,"lng":-73.96805048224734}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"77","external_id":"88","name":"Zone 89","position":74,"coordinates":[{"lat":40.77054810751462,"lng":-73.98008823394777},{"lat":40.76871179116097,"lng":-73.98148302036996},{"lat":40.76508770159194,"lng":-73.97262096405031},{"lat":40.766907872130425,"lng":-73.97126912127318}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"78","external_id":"91","name":"Central Park 2","position":75,"coordinates":[{"lat":40.796609,"lng":-73.961098},{"lat":40.792371,"lng":-73.964225},{"lat":40.788552,"lng":-73.955307},{"lat":40.792856,"lng":-73.952171}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"79","external_id":"92","name":"Zone 92","position":76,"coordinates":[{"lat":40.788552,"lng":-73.955307},{"lat":40.787232,"lng":-73.952107},{"lat":40.78301107163401,"lng":-73.95502554095746},{"lat":40.77552054794698,"lng":-73.96062607820886},{"lat":40.77687181174819,"lng":-73.96373501834668}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"80","external_id":"93","name":"Zone 93","position":77,"coordinates":[{"lat":40.76500521379964,"lng":-73.972750991933},{"lat":40.763639973346265,"lng":-73.96927475479605},{"lat":40.775569279503294,"lng":-73.96051885582585},{"lat":40.77683668215556,"lng":-73.96373753491982}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"81","external_id":"94","name":"Zone 95","position":78,"coordinates":[{"lat":40.76817553047858,"lng":-73.99636381227256},{"lat":40.76468945775833,"lng":-73.99900320962224},{"lat":40.763512,"lng":-73.996436},{"lat":40.765201,"lng":-73.995216},{"lat":40.765023796155376,"lng":-73.99530557845557},{"lat":40.76710407906888,"lng":-73.99378204603363}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"82","external_id":"95","name":"Zone 96","position":79,"coordinates":[{"lat":40.76711507638565,"lng":-73.99377822640344},{"lat":40.765293,"lng":-73.995052},{"lat":40.761690926847805,"lng":-73.98649334436264},{"lat":40.76354779778445,"lng":-73.98513075155064}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"83","external_id":null,"name":"Chinatown dumplings?!","position":80,"coordinates":[{"lat":40.718314,"lng":-73.994315},{"lat":40.716721,"lng":-73.989133},{"lat":40.714501,"lng":-73.990334},{"lat":40.716249,"lng":-73.996132},{"lat":40.718562,"lng":-73.994942}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"84","external_id":null,"name":"Here be fire","position":81,"coordinates":[{"lat":40.71863980562839,"lng":-74.0087127685547},{"lat":40.718233,"lng":-74.006953},{"lat":40.721192,"lng":-74.004443},{"lat":40.72177,"lng":-74.005462},{"lat":40.721973687369214,"lng":-74.0081548690796}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"85","external_id":null,"name":"Zone 87","position":82,"coordinates":[{"lat":40.709768,"lng":-74.015091},{"lat":40.709337,"lng":-74.013026},{"lat":40.7104670233797,"lng":-74.0126931667328},{"lat":40.7114165000845,"lng":-74.01223182678224},{"lat":40.712178918044536,"lng":-74.01188045740129},{"lat":40.71252251155152,"lng":-74.01161760091783},{"lat":40.712851871710335,"lng":-74.01137083768846},{"lat":40.71365290134627,"lng":-74.01076197624208},{"lat":40.714470185610736,"lng":-74.01013702154161},{"lat":40.714924,"lng":-74.011073},{"lat":40.715371,"lng":-74.013734}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"86","external_id":null,"name":"Zone 90","position":83,"coordinates":[{"lat":40.716778,"lng":-73.989133},{"lat":40.719003,"lng":-73.98796},{"lat":40.716125,"lng":-73.979819},{"lat":40.714802,"lng":-73.980861},{"lat":40.714079,"lng":-73.990274},{"lat":40.714501,"lng":-73.990334},{"lat":40.716778,"lng":-73.989133},{"lat":40.719003,"lng":-73.98796},{"lat":40.716125,"lng":-73.979819},{"lat":40.716345,"lng":-73.98051},{"lat":40.719003,"lng":-73.98796},{"lat":40.714501,"lng":-73.990334}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"87","external_id":null,"name":"138 years?!","position":84,"coordinates":[{"lat":40.723746,"lng":-73.991418},{"lat":40.722185,"lng":-73.986311},{"lat":40.717741,"lng":-73.988615},{"lat":40.717427,"lng":-73.988783},{"lat":40.71703785671937,"lng":-73.98899316787721},{"lat":40.717049,"lng":-73.988985},{"lat":40.716777638028674,"lng":-73.98913264274599},{"lat":40.71681016542064,"lng":-73.989315032959},{"lat":40.716972802142045,"lng":-73.98973345756532},{"lat":40.71713543846614,"lng":-73.99035573005678},{"lat":40.71746884168838,"lng":-73.99154663085939},{"lat":40.71830640827061,"lng":-73.9943039417267},{"lat":40.71942856833878,"lng":-73.9936923980713}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"88","external_id":null,"name":"Zone 92","position":85,"coordinates":[{"lat":40.722185,"lng":-73.986311},{"lat":40.724263,"lng":-73.984854},{"lat":40.725263,"lng":-73.987085},{"lat":40.730185708117375,"lng":-73.99819850921632},{"lat":40.727291289709356,"lng":-74.00060176849367},{"lat":40.72446179272971,"lng":-73.99360656738283}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"89","external_id":null,"name":"Zone 94","position":86,"coordinates":[{"lat":40.75888,"lng":-73.958427},{"lat":40.76307241448451,"lng":-73.95365238189699},{"lat":40.765217694667975,"lng":-73.95191431045534},{"lat":40.767249,"lng":-73.956427},{"lat":40.764726,"lng":-73.958235},{"lat":40.764404999999996,"lng":-73.957472},{"lat":40.759811,"lng":-73.960602}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"90","external_id":null,"name":"Zone 96","position":87,"coordinates":[{"lat":40.74792,"lng":-74.003957},{"lat":40.745351,"lng":-73.998337},{"lat":40.745209,"lng":-73.998434},{"lat":40.743288,"lng":-73.999736},{"lat":40.741332,"lng":-74.001244},{"lat":40.741072,"lng":-74.001452},{"lat":40.74107,"lng":-74.001453},{"lat":40.74107,"lng":-74.001453},{"lat":40.74107,"lng":-74.001453},{"lat":40.74107,"lng":-74.001453},{"lat":40.743492,"lng":-74.007272}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"91","external_id":null,"name":"Zone 99","position":88,"coordinates":[{"lat":40.739681,"lng":-73.972696},{"lat":40.738185,"lng":-73.972664},{"lat":40.735714022586095,"lng":-73.97255659103395},{"lat":40.736446,"lng":-73.974531},{"lat":40.735616,"lng":-73.975196},{"lat":40.736885,"lng":-73.9785},{"lat":40.740663,"lng":-73.975821}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"93","external_id":null,"name":"Zone 102","position":89,"coordinates":[{"lat":40.745566,"lng":-73.97202},{"lat":40.745079,"lng":-73.970776},{"lat":40.74496479182735,"lng":-73.97053956985475},{"lat":40.74837863470466,"lng":-73.9676856994629},{"lat":40.751678516237334,"lng":-73.9648747444153},{"lat":40.75247,"lng":-73.966891}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"94","external_id":null,"name":"Zone 103","position":90,"coordinates":[{"lat":40.739681,"lng":-73.972696},{"lat":40.74221733386824,"lng":-73.97184848785402},{"lat":40.744965,"lng":-73.97054},{"lat":40.745566,"lng":-73.97202},{"lat":40.740663,"lng":-73.975821}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"95","external_id":null,"name":"Zone 104","position":91,"coordinates":[{"lat":40.716345,"lng":-73.98051},{"lat":40.719947,"lng":-73.978607},{"lat":40.721363,"lng":-73.977859},{"lat":40.724306,"lng":-73.984822},{"lat":40.718987,"lng":-73.987911}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"96","external_id":null,"name":"Zone 105","position":92,"coordinates":[{"lat":40.715057,"lng":-73.976417},{"lat":40.717678,"lng":-73.975444},{"lat":40.72016,"lng":-73.975014},{"lat":40.721363,"lng":-73.977859},{"lat":40.716345,"lng":-73.98051}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"97","external_id":null,"name":"Zone 107","position":93,"coordinates":[{"lat":40.725884,"lng":-73.972587},{"lat":40.7256,"lng":-73.971763},{"lat":40.715908,"lng":-73.974466},{"lat":40.712004,"lng":-73.976398},{"lat":40.710866,"lng":-73.97747},{"lat":40.710378,"lng":-73.979445},{"lat":40.71086552060471,"lng":-73.98021697998048},{"lat":40.712101660088756,"lng":-73.97802829742433},{"lat":40.71418352734685,"lng":-73.97674083709718},{"lat":40.71836,"lng":-73.975326},{"lat":40.722216,"lng":-73.974159}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"98","external_id":null,"name":"Zone 108","position":94,"coordinates":[{"lat":40.804259,"lng":-73.955326},{"lat":40.799127,"lng":-73.943653},{"lat":40.795489,"lng":-73.946084},{"lat":40.800479,"lng":-73.95812}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"99","external_id":null,"name":"Zone 110","position":95,"coordinates":[{"lat":40.709858,"lng":-74.002012},{"lat":40.707775,"lng":-73.999786},{"lat":40.704131,"lng":-74.006224},{"lat":40.705548,"lng":-74.008215},{"lat":40.707713,"lng":-74.00516}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"100","external_id":null,"name":"Zone 100","position":96,"coordinates":[{"lat":40.799127,"lng":-73.943653},{"lat":40.79457831752619,"lng":-73.93107891082765},{"lat":40.791037,"lng":-73.935345},{"lat":40.795493,"lng":-73.946081},{"lat":40.795493,"lng":-73.946081}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"101","external_id":null,"name":"Zone 103","position":97,"coordinates":[{"lat":40.716125,"lng":-73.979819},{"lat":40.71494,"lng":-73.976569},{"lat":40.71250827990296,"lng":-73.97785663604738},{"lat":40.71203660068803,"lng":-73.97811412811281},{"lat":40.710866,"lng":-73.980217},{"lat":40.71093,"lng":-73.980689},{"lat":40.714802,"lng":-73.980861}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"102","external_id":null,"name":"Zone 104","position":98,"coordinates":[{"lat":40.709987,"lng":-73.988693},{"lat":40.709093,"lng":-73.988564},{"lat":40.709776,"lng":-73.981268},{"lat":40.7100603910999,"lng":-73.97974491119386},{"lat":40.710378,"lng":-73.979445},{"lat":40.710866,"lng":-73.980217}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"103","external_id":null,"name":"Zone 106","position":99,"coordinates":[{"lat":40.714501,"lng":-73.990334},{"lat":40.714095,"lng":-73.990276},{"lat":40.714067,"lng":-73.990656},{"lat":40.713659000519705,"lng":-73.99440586566926},{"lat":40.71365493440415,"lng":-73.99454534053804},{"lat":40.713634603822534,"lng":-73.99483501911165},{"lat":40.713585810401355,"lng":-73.99532318115236},{"lat":40.71352075245083,"lng":-73.99628341197969},{"lat":40.71340283475345,"lng":-73.99730801582338},{"lat":40.713651,"lng":-73.998158},{"lat":40.713917,"lng":-73.99793},{"lat":40.713929,"lng":-73.997919},{"lat":40.71583,"lng":-73.996452},{"lat":40.716245,"lng":-73.996133}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"104","external_id":null,"name":"Zone 107","position":100,"coordinates":[{"lat":40.710443,"lng":-74.018224},{"lat":40.709873,"lng":-74.015134},{"lat":40.71833080325585,"lng":-74.01278704404832},{"lat":40.718689,"lng":-74.016738},{"lat":40.713614,"lng":-74.017704}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"105","external_id":null,"name":"Zone 108","position":101,"coordinates":[{"lat":40.718989,"lng":-74.012603},{"lat":40.718587,"lng":-74.008783},{"lat":40.718233223261244,"lng":-74.00700688362123},{"lat":40.71633851668173,"lng":-74.00853037834169},{"lat":40.714500681098095,"lng":-74.01016116142274},{"lat":40.71507,"lng":-74.011277},{"lat":40.715436,"lng":-74.013433}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"106","external_id":null,"name":"Zone 109","position":102,"coordinates":[{"lat":40.751649,"lng":-73.967517},{"lat":40.750039,"lng":-73.968697},{"lat":40.753385,"lng":-73.976655},{"lat":40.754716,"lng":-73.975777}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"107","external_id":null,"name":"Zone 101","position":103,"coordinates":[{"lat":40.765218,"lng":-73.951914},{"lat":40.772417,"lng":-73.94494},{"lat":40.774724,"lng":-73.950863},{"lat":40.767562,"lng":-73.956208}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"108","external_id":null,"name":"Zone 102","position":104,"coordinates":[{"lat":40.735616,"lng":-73.975196},{"lat":40.728592,"lng":-73.971398},{"lat":40.732625,"lng":-73.98159},{"lat":40.73691,"lng":-73.978559}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"109","external_id":null,"name":"Zone 110","position":105,"coordinates":[{"lat":40.747997,"lng":-73.989042},{"lat":40.746693,"lng":-73.985941},{"lat":40.750996,"lng":-73.982792},{"lat":40.752199,"lng":-73.98586}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"110","external_id":null,"name":"Zone 105","position":106,"coordinates":[{"lat":40.713565,"lng":-73.997984},{"lat":40.713403,"lng":-73.997319},{"lat":40.713907,"lng":-73.992512},{"lat":40.70993,"lng":-73.991728},{"lat":40.707775,"lng":-73.999786},{"lat":40.709855,"lng":-74.002016}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"112","external_id":null,"name":"Zone 111","position":107,"coordinates":[{"lat":40.727291,"lng":-74.000602},{"lat":40.726998,"lng":-73.999852},{"lat":40.72699,"lng":-73.999857},{"lat":40.724185,"lng":-74.002115},{"lat":40.7236,"lng":-74.002554},{"lat":40.724401,"lng":-74.002469},{"lat":40.7251610474272,"lng":-74.0023720264435},{"lat":40.725876556256814,"lng":-74.00174975395204}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"113","external_id":null,"name":"Zone 113","position":108,"coordinates":[{"lat":40.737082,"lng":-74.00046},{"lat":40.734766,"lng":-73.994583},{"lat":40.726878,"lng":-74.00093}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"114","external_id":null,"name":"Zone 115","position":109,"coordinates":[{"lat":40.705854,"lng":-74.007777},{"lat":40.706076,"lng":-74.007459},{"lat":40.706621,"lng":-74.006678},{"lat":40.708469,"lng":-74.009598},{"lat":40.709097,"lng":-74.010687},{"lat":40.709284,"lng":-74.011126},{"lat":40.709629,"lng":-74.011934},{"lat":40.710002,"lng":-74.012793},{"lat":40.709337,"lng":-74.013026}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"115","external_id":null,"name":"Zone 115","position":110,"coordinates":[{"lat":40.75168664382219,"lng":-73.99015188217165},{"lat":40.750405,"lng":-73.987221},{"lat":40.747998,"lng":-73.989045},{"lat":40.749216,"lng":-73.991944}],"challenge":null,"status":"unclaimed","current_claim":null},{"id":"116","external_id":null,"name":"Zone 116","position":111,"coordinates":[{"lat":40.7315027894211,"lng":-74.00220572948457},{"lat":40.73158815490228,"lng":-74.00198578834535},{"lat":40.731612545019644,"lng":-74.00179266929628},{"lat":40.73143774898098,"lng":-74.00135815143587},{"lat":40.731541,"lng":-74.000929},{"lat":40.731584,"lng":-74.000733},{"lat":40.727251,"lng":-74.000977},{"lat":40.72695,"lng":-74.000967},{"lat":40.725267,"lng":-74.002334}],"challenge":null,"status":"unclaimed","current_claim":null}];
+    var teams   = [{"id":1,"name":"Team 1","number":1,"house":{"name":"Blue","color":"#0355D1"}},{"id":2,"name":"Team 1","number":1,"house":{"name":"Green","color":"#89C400"}},{"id":9,"name":"Team 1","number":1,"house":{"name":"Orange","color":"#FF681C"}},{"id":13,"name":"Team 1","number":1,"house":{"name":"Yellow","color":"#FECB0D"}},{"id":6,"name":"Team 2","number":2,"house":{"name":"Green","color":"#89C400"}},{"id":10,"name":"Team 2","number":2,"house":{"name":"Orange","color":"#FF681C"}},{"id":3,"name":"Team 2","number":2,"house":{"name":"Blue","color":"#0355D1"}},{"id":14,"name":"Team 2","number":2,"house":{"name":"Yellow","color":"#FECB0D"}},{"id":4,"name":"Team 3","number":3,"house":{"name":"Blue","color":"#0355D1"}},{"id":7,"name":"Team 3","number":3,"house":{"name":"Green","color":"#89C400"}},{"id":15,"name":"Team 3","number":3,"house":{"name":"Yellow","color":"#FECB0D"}},{"id":11,"name":"Team 3","number":3,"house":{"name":"Orange","color":"#FF681C"}},{"id":16,"name":"Team 4","number":4,"house":{"name":"Yellow","color":"#FECB0D"}},{"id":12,"name":"Team 4","number":4,"house":{"name":"Orange","color":"#FF681C"}},{"id":8,"name":"Team 4","number":4,"house":{"name":"Green","color":"#89C400"}},{"id":5,"name":"Team 4","number":4,"house":{"name":"Blue","color":"#0355D1"}}];
+
+    console.log(`[map] Data loaded — ${airtagMarkers.length} AirTag marker(s), ${zones.length} zone(s), ${teams.length} team(s)`);
+
+    var myLocation   = {"lat":40.7986919,"lng":-73.9663741};
 
     var zoneIndex = {};
     zones.forEach(function(z) { zoneIndex[String(z.id)] = z; });
@@ -1028,8 +1061,8 @@
     var polyIndex = {};
     var selectedId = null;
     var map;
-    var defaultCenter = [40.7549, -73.9840];
-    var defaultZoom = 13;
+    var defaultCenter = myLocation ? [myLocation.lat, myLocation.lng] : [40.7549, -73.9840];
+    var defaultZoom   = myLocation ? 16 : 13;
 
     // ── Sheet expand/collapse ──
     // When the sheet covers part of the map, we shift the map so the
@@ -1123,7 +1156,10 @@
       opts = opts || {};
       id = String(id);
       var zone = zoneIndex[id];
-      if (!zone) return;
+      if (!zone) {
+        console.warn(`[map] selectZone: zone ${id} not found in index`);
+        return;
+      }
 
       // Toggle row state
       var row = document.querySelector('.zone-row[data-zone-id="' + id + '"]');
@@ -1133,6 +1169,7 @@
       closeAllRows();
 
       if (!wasOpen || opts.forceOpen) {
+        console.log(`[map] Zone selected — id: ${id}, name: "${zone.name || '(unnamed)'}", status: ${zone.status}`);
         if (detailEl) detailEl.innerHTML = renderDetail(zone);
         if (row) {
           row.classList.add('open');
@@ -1150,6 +1187,7 @@
           panToVisible([lat, lng]);
         }
       } else {
+        console.log(`[map] Zone deselected — id: ${id}`);
         selectedId = null;
       }
 
@@ -1195,6 +1233,7 @@
 
     // ── Init Leaflet ──
     // No built-in zoom control — users pinch/scroll; we provide our own FAB.
+    console.log(`[map] Initializing Leaflet — center: ${defaultCenter}, zoom: ${defaultZoom}`);
     map = L.map('map', { zoomControl: false, attributionControl: false })
             .setView(defaultCenter, defaultZoom);
 
@@ -1205,6 +1244,7 @@
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19
     }).addTo(map);
+    console.log('[map] Tile layer added (OpenStreetMap)');
 
     function buildTeamPopup(m) {
       var html = '<div style="font-size:13px;min-width:160px">';
@@ -1235,18 +1275,35 @@
       });
       var marker = L.marker([m.lat, m.lng], { icon }).addTo(map);
       marker.bindPopup(buildTeamPopup(m), { maxWidth: 260 });
+      console.log(`[map] AirTag marker placed — team: "${m.teamName}", lat: ${m.lat?.toFixed(6)}, lng: ${m.lng?.toFixed(6)}, last seen: ${m.timeAgo} ago`);
     });
 
+    var skippedZones = 0;
     zones.forEach(function(zone) {
-      if (!zone.coordinates || zone.coordinates.length === 0) return;
+      if (!zone.coordinates || zone.coordinates.length === 0) {
+        skippedZones++;
+        return;
+      }
       var latlngs = zone.coordinates.map(function(c) { return [c.lat, c.lng]; });
       var status = zone.status;
-      var color = zone.current_claim ? zone.current_claim.team.house.color : '#111827';
-      if (status === "pending") color += "88";
+      var strokeColor, fillColor, fillOpacity;
+      if (status === "claimed") {
+        strokeColor = zone.current_claim.team.house.color;
+        fillColor   = strokeColor;
+        fillOpacity = 0.2;
+      } else if (status === "pending") {
+        strokeColor = "#fbbf24";
+        fillColor   = "#fbbf24";
+        fillOpacity = 0.15;
+      } else {
+        strokeColor = "#111827";
+        fillColor   = "#111827";
+        fillOpacity = 0.1;
+      }
 
       var poly = L.polygon(latlngs, {
-        color: color, opacity: 0.9, weight: 2,
-        fillColor: color, fillOpacity: 0.15
+        color: strokeColor, opacity: 0.9, weight: 2,
+        fillColor: fillColor, fillOpacity: fillOpacity
       }).addTo(map);
 
       polyIndex[String(zone.id)] = poly;
@@ -1255,11 +1312,15 @@
         selectZoneFromMap(String(zone.id));
       });
     });
+    console.log(`[map] Zones rendered — ${zones.length - skippedZones} polygon(s) added, ${skippedZones} skipped (no coordinates)`);
 
     map.on('click', function() { deselectZone(); });
 
     // Ensure Leaflet sizes correctly after layout settles
-    setTimeout(function() { map.invalidateSize(); }, 50);
+    setTimeout(function() {
+      map.invalidateSize();
+      console.log('[map] invalidateSize() called after layout settle');
+    }, 50);
     window.addEventListener('resize', function() {
       map.invalidateSize();
       adjustMapForSheet(false);
@@ -1296,19 +1357,24 @@
             <div class="w-12 h-1.5 bg-gray-300 rounded-full mx-auto mb-4"></div>
             <div class="flex items-center gap-3 mb-5">
               <div class="w-14 h-14 rounded-2xl bg-[#fbbf24] border-[3px] border-black overflow-hidden flex items-center justify-center text-2xl font-black">
-                  <img alt="" class="w-full h-full object-cover" src="https://avatars.slack-edge.com/2026-01-26/10382005272884_248eb590b690830f8423_192.png" />
+                  <img alt="" class="w-full h-full object-cover" onerror="this.style.display=&#39;none&#39;;this.nextElementSibling.style.display=&#39;&#39;" src="https://avatars.slack-edge.com/2026-01-26/10382005272884_248eb590b690830f8423_192.png" />
+                  <span style="display:none">T</span>
               </div>
               <div class="flex-1 min-w-0">
                 <p class="font-black text-lg truncate">technodot</p>
-                  <p class="text-sm text-gray-600">No team assigned</p>
+                  <p class="text-sm text-gray-600 truncate">Yellow · Team #3</p>
               </div>
+                <span class="pill-yellow border-[2px] border-black">
+                  <svg class="w-3 h-3" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.368 2.447a1 1 0 00-.364 1.118l1.286 3.957c.3.921-.755 1.688-1.54 1.118l-3.368-2.447a1 1 0 00-1.176 0l-3.368 2.447c-.784.57-1.838-.197-1.539-1.118l1.286-3.957a1 1 0 00-.364-1.118L2.05 9.384c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69l1.286-3.957z"/></svg>
+                  0 pts
+                </span>
             </div>
             <form class="button_to" method="post" action="/logout"><input type="hidden" name="_method" value="delete" /><button class="btn-game-dark w-full" data-turbo="false" type="submit">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/>
               </svg>
               <span>Sign out</span>
-</button><input type="hidden" name="authenticity_token" value="E-Edyw7lz0MSMngnD7VoFWIK_Vq3tN1j31BMhz3l6WEk2AVjoV6O6cHilVdKwQ-Svwsvb8qMln5Vic7CF_QHuA" /></form>            <button type="button" onclick="closeProfileSheet()"
+</button><input type="hidden" name="authenticity_token" value="jz0tBCvIB5_GpebMOIH28gxf0_lv6kCbeC9ijMshVSiWOyR3kAjrXpsCXaJqaupSrW-0vP6Udq8rrj2LSZJUlg" /></form>            <button type="button" onclick="closeProfileSheet()"
                     class="mt-3 w-full text-xs uppercase tracking-widest font-bold text-gray-500 py-2">
               Close
             </button>
@@ -1358,5 +1424,22 @@
             };
           })();
         </script>
+      <div id="location-permission-overlay" class="hidden fixed inset-0 z-[9999] bg-black/90 flex items-center justify-center p-6">
+        <div class="bg-white rounded-3xl border-[3px] border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] max-w-sm w-full p-8 text-center">
+          <div class="w-16 h-16 bg-[#fbbf24] rounded-2xl border-[3px] border-black flex items-center justify-center mx-auto mb-5 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+          </div>
+          <h2 class="text-xl font-black mb-2">Location Access Required</h2>
+          <p class="text-sm text-gray-600 mb-6 leading-relaxed">Hack Club: The Game tracks your location to show your team on the map and verify zone challenges. You must allow location access to play.</p>
+          <button type="button" onclick="retryLocationPermission()"
+                  class="w-full bg-[#fbbf24] border-[3px] border-black rounded-xl font-black text-sm py-3 px-4 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-0.5 hover:translate-y-0.5 transition-all mb-3">
+            Enable Location Access
+          </button>
+          <p class="text-xs text-gray-400 leading-relaxed">If the dialog doesn't appear, open your browser or device settings and enable location for this site, then tap the button again.</p>
+        </div>
+      </div>
   </body>
 </html>
